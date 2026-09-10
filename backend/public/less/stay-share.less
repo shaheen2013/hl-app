@@ -1,0 +1,206 @@
+.wifi-offer-gift-button {
+  position: absolute;
+  left: 20px;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+
+.wifi-offer-gift-button_deactivated {
+  top: -80px;
+}
+
+.wifi-offer-gift-button_activated {
+  top: 80px;
+}
+
+#wifi-offer-modal {
+  .modal-content {
+    overflow: hidden;
+  }
+  .wifi-offer-modal-bg-img {
+    overflow: hidden;
+    height: 140px;
+  }
+  .wifi-offer-gift {
+    position: absolute;
+    left: 50%;
+    margin-left: -40px;
+    top: 100px;
+    background: white;
+    border: 4px solid white;
+    border-radius: 50%;
+  }
+  .modal-body {
+    padding: 30px 20px 20px;
+  }
+
+  .btn-facebook{
+    .flex-container{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    svg{
+      width: 1.2rem;
+      height: 1.2rem;
+      margin-right: 1rem;
+    }
+    a{
+      color:white;
+    }
+  }
+}
+
+.stay-share-content {
+  display: none;
+  color: #ffffff;
+  font-size: 1.2em;
+  @media only screen and (max-device-width: 480px) {
+    font-size: 1em;
+  }
+  * {
+    animation-duration: .3s;
+    animation-delay: .1s;
+  }
+  h4 {
+    margin-top: 10px;
+    animation-delay: .1s;
+    @media screen and (max-width : 320px){
+      font-size: 16px;
+    }
+  }
+  h3 {
+    @media screen and (max-width : 320px){
+      font-size: 18px;
+      font-weight: bolder;
+    }
+  }
+  p{
+    @media screen and (max-width : 320px){
+      font-size: 12px;
+    }
+  }
+  .hotel-stars{
+    @media screen and (max-width : 320px){
+      display:none;
+    }
+  }
+  .hotel-stay-share-logo{
+    @media screen and (max-width : 320px){
+      width: 9rem;
+      height: 9rem;
+    }
+  }
+  .animated-p {
+    animation-delay: .2s;
+  }
+  .btn-faceboog-group {
+    animation-delay: .3s;
+  }
+  .btn-twitter-group {
+    animation-delay: .4s;
+  }
+  .mail-link {
+    animation-delay: .5s;
+  }
+  .hlwrapper {
+    min-width: 100%;
+    min-height: 100%;
+  }
+  .btn-container {
+    width: 250px;
+    margin: 0 auto;
+  }
+  .btn-group {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .button-social {
+    text-align: left;
+    cursor: pointer;
+  }
+
+  .btn-facebook{
+    margin-top: 1rem;
+    .flex-container{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    svg{
+      width: 1.2rem;
+      height: 1.2rem;
+      margin-right: 1rem;
+    }
+  }
+
+}
+
+.stay-share {
+  .connection-text, .ripple {
+    /*display: none;*/
+    position: fixed;
+    z-index: 3;
+    color: white;
+  }
+}
+
+.stay-wifi-redirect, .facebook-login-callback, .stay-share-redirect-content {
+  .connection-text, .ripple {
+    display: none;
+    position: fixed;
+    z-index: 3;
+    color: white;
+  }
+}
+
+.stay-share, .stay-wifi-redirect, .facebook-login-callback, .stay-share-redirect-content {
+  .facebook-stay-share-errors {
+    color: #FFF;
+    line-height: 130%;
+  }
+  .login-error, .permissions-error {
+    animation-delay: .9s;
+    animation-duration: .1s;
+  }
+  footer {
+    display: none;
+  }
+  .mail-link {
+    position: fixed;
+    bottom: 100px;
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .connection-text {
+    top: 30%;
+    line-height: .1em;
+    text-align: center;
+    animation-delay: .7s;
+    animation-duration: .1s;
+    width: 100%;
+  }
+  .ripple {
+    top: 50%;
+    left: 50%;
+    margin-top: -40px;
+    margin-left: -60px;
+    animation-delay: .8s;
+    animation-duration: .1s;
+  }
+  .vertical-align {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+  }
+  .likeButton-content {
+    animation-delay: 1s;
+    animation-duration: .1s;
+  }
+}

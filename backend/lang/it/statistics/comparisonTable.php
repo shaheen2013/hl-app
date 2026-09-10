@@ -1,0 +1,31 @@
+<?php
+    $lang = [
+        "comparative hotels" => "Comparativa de hoteles",
+        "name" => "Nombre",
+        "users" => "Usuarios",
+        "explanation users" => "La suma de todos los usuarios de cada hotel no es el mismo que los usuarios de cadena ya que un mismo usuario puede haber accedido a más de un hotel de su cadena",
+        "value database" => "Valor de la base de datos",
+        "form"=> "Formulario",
+        "publish facebook" => "Publicaciones en Facebook",
+        "ratio post facebook" => "Ratio de publicaciones Facebook",
+        "total impressions" => "Cantidad de impresiones en Facebook",
+        "value impressions" => "Valor de las impresiones en Facebook",
+        "average satisfaction" => "Media de satisfacción",
+        "response time" => "Average response time",
+        "satisfaction sent" => "Emails de satisfacción enviados",
+        "satisfaction open" => "Emails de satisfacción abiertos",
+        "satisfaction click" => "Clicks en emails de satisfacción",
+        "review sent" => "Emails de review enviados",
+        "review open" => "Emails de review abiertos",
+        "review click" => "Clicks en emails de review",
+        "warning sent" => "Emails de warning enviados",
+        "warning open" => "Emails de warning abiertos",
+        "facebook" => "Facebook",        
+        "sorry 1" => "We feel sorry, but we have no data before September...",
+        "sorry 2" => "This is a new feature and we have no accurated data before <strong>September 1, 2018</strong>.",
+        "days" => "days",
+		"and" => "and",
+		"hours" => "hours",  
+        "show more" => "Show more"
+    ]
+?>

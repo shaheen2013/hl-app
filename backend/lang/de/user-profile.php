@@ -1,0 +1,31 @@
+<?php
+	$UserProfileLang = array(
+			"Your basic profile" => "Your profile info",
+			"Tu nombre" => "Your name",
+			"Escribe tu nombre..." => "Your name here...",
+			"Tu correo electrónico" => "Your email",
+			"tu correo electrónico..." => "Your email here...",
+			"Fecha de nacimiento" => "Your birth date",
+			"dd" => "dd",
+			"mm" => "mm",
+			"aaaa" => "yyy",			
+			"Sexo" => "Sexo",
+			"Selecciona..." => "Pick an option...",
+			"Mujer" => "Man",
+			"Hombre" => "Woman",
+			"País" => "Country",
+			"País..." => "Country here...",
+			"Provincia" => "State",
+			"Provincia..." => "State here...",
+			"Ciudad" => "Where do you live?",
+			"Ciudad..." => "Your location here...",
+			"He leido y acepto las" => "I read and I accept",
+			"condiciones del servicio" => "the service conditions",
+			"Save changes" => "Save changes",
+			"Link social medias" => "Link your social media networks",
+			"Change your password" => "Change your password",
+			"Type your actual password" => "Current password",
+			"Type your new password" => "New password",
+			"Retype your new password" => "New password again"
+			);
+ ?>

@@ -1,0 +1,63 @@
+.statistic_div {
+    display: inline-block;
+    width: 49%;
+    padding: 1rem;
+    vertical-align: top;
+}
+.statistic_div .content.ui.center.aligned {
+    min-height: 190px;
+}
+#main.mainReport{
+    padding:0;
+}
+.full_statistic_div.statistic_div {
+    width: 100%;
+}
+.full_statistic_div.statistic_div .content.ui.center.aligned {
+    min-height: initial;
+}
+.statistic_div i.ui.icon.question.circle.primary-color.has-tooltip.right.floated {
+    display: none;
+}
+.statistic_div .number_statistic {
+    margin-top: 0!important;
+}
+.statistic_div .content.statistic_content{
+    text-align: center;
+}
+.statistic_div canvas {
+    display: inline-block!important;
+    max-height: 130px;
+}
+.report-logo-container{
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hl_report_titles {
+    padding: 3rem 4.5rem;
+}
+
+.hl_report_titles > h2:nth-last-child(2){
+    border-bottom: 3px solid #66ede7;
+    margin-bottom: 5rem;
+}
+.hl_report h2 {
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    font-weight: normal;
+    font-size: 2rem;
+    color: #585882;
+}
+.report-logo-container + h2{
+    margin-top: -28px;
+}
+
+.empty_page{
+    height: 380px;
+}
+div.ui.mini.horizontal {
+    margin-bottom: 0;
+}

@@ -1,0 +1,134 @@
+var tour = new Tour({
+  name: "tour",
+  storage: false,
+  steps: [{
+    orphan:true,
+    backdrop:true,
+    title: "Hi!, i will show you how to create an offer",
+    content: "Learn in two minutes how to create an awesome offer to attract your potential guests to your hotel. <strong>Don´t worry it will not be published!</strong>",
+  },{
+    element: ".hcdo-previous-step",
+    placement: "bottom",
+    title: "Previous step",
+    content: "Anytime you can go to the basic info step to re-select you categories"
+  },{
+    element: ".hcdo-details",
+    placement: "bottom",
+    title: "Campaign details",
+    content: "Here you will create all details of your campaign"
+  },{
+    element: ".hcdo-publish",
+    placement: "bottom",
+    title: "Publish campaign",
+    content: "Once you are happy with your campaign details, from here you will publish it. This button will turn green once all requeriments are meet"
+  },{
+    orphan:true,
+    backdrop:true,
+    title: "There are two more options",
+    content: "Once you finish all the onboarding process, you will see two more options here: <strong>Save draft</strong> and <strong>Cancel and go back</strong>, right now we don´t want you to cancel and save drafts so those options are deactivated"
+  },{
+    element: ".liLine",
+    placement: "bottom",
+    title: "Your selection",
+    content: "A reminder of your selection in the <strong>Basic info</strong> screen"
+  },{
+    orphan:true,
+    backdrop:true,
+    title: "Lets start!",
+    content: "I will help you with this first campaign... Don´t worry, it´s not for real, just a fake campaign. Click next."
+  },{
+    element: "#imgUploadBtn",
+    placement: "bottom",
+    next: -1,
+    title: "Click here to add a campaign image",
+    content: "Images are very important, they will be shown in the guest shop, so they need to attract. Remember, images needs to be at least 700 x 500 to be elegible."
+
+  },{
+    element: ".cropControlsCrop",
+    placement: "bottom",
+    duration: 20000,
+    title: "Good! Lets see the options",
+    content: "You can <strong>zoom in</strong>, <strong>zoom out</strong>, <strong>Accept the image changes</strong>, and <strong>remove the image</strong> and upload another one. You can grab and drag your image for better placement. Once you are happy with the result click on <strong>Accept changes</strong>"
+  },{
+    element: ".offerH2Input",
+    placement: "bottom",
+    title: "Name your campaign",
+    content: "Write here an appealing name for your campaing by clicking over the text or the blue button besides this field, when done click next"
+  },{
+    element: "#offerValidFrom",
+    placement: "top",
+    title: "Set an start date",
+    content: "Set an start date for your campaign by clicking over the text or the blue button, and then click next"
+  },{
+    element: "#offerValidTill",
+    placement: "top",
+    title: "Set an end date",
+    content: "Set an end date for your campaign by clicking over the text or the blue button. If you want your campaign to last forever just leave this field blank, after your selection click next"
+  },{
+    element: ".dragFileCheck",
+    placement: "left",
+    title: "Green checks",
+    content: "There are four checks in this page, when all four become green you can publish your campaign, Those checks become green only when minimun required information is set."
+  },{
+    element: "#offerDesc",
+    placement: "top",
+    title: "Campaign description",
+    content: "Write here a detailed description of your campaign and then click next."
+  },{
+    element: "#offerCond",
+    placement: "top",
+    title: "Campaign conditions",
+    content: "Write here a detailed conditions of your campaign and then click next."
+  },{
+    element: ".descriptionCheck",
+    placement: "left",
+    duration: 5000,
+    title: "Description check",
+    content: "check if they turned green, if yes, you are ready to go!."
+  },{
+    element: ".conditionsCheck",
+    placement: "left",
+    duration: 5000,
+    title: "Conditions check",
+    content: "check if they turned green, if yes, you are ready to go!."
+  },{
+    element: ".editBtnCost",
+    placement: "left",
+    next: -1,
+    title: "Almost finished!",
+    content: "last thing to do is set cost, quota, and night requeriments for this campaign. Click on the blue button to start."
+  },{
+    element: "#money",
+    placement: "left",
+    title: "Minimum cost",
+    content: "How much cost your guest must spend in your hotel (in $) to have enought rewards to buy this offer, put your price and click next"
+  },{
+    element: "#quota",
+    placement: "left",
+    title: "Quota",
+    content: "How much of this campaign are available to adquire, if you left it blank it will be unlimited, set it and click next"
+  },{
+    element: "#requeriments",
+    placement: "left",
+    onHide: function (tour) {
+      $('#createOfferVideoModal').modal('hide');
+    },
+    title: "Requeriments",
+    content: "You can set a minimun nights of stay for this campaign to be redeemed, if you left it blank no there will be no requeriments, set it and click 'OK' blue button"
+  },{
+    element: ".costCheck",
+    placement: "left",
+    title: "Green check?",
+    content: "Is it green?, if yes and all four checks are green your are ready to go!, click next, otherwise fix it."
+  },{
+    element: ".hcdo-publish",
+    placement: "bottom",
+    title: "Publish your offer",
+    content: "<strong>Congratulations!</strong> Remember it´s a simulation and the offer will not be published."
+  }],
+  container: "body"
+});
+
+$(document).ready(function(){
+  //tour.init();
+});

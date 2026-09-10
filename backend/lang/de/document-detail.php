@@ -1,0 +1,25 @@
+<?php
+$lang = [
+    'Title' => 'Document detail',
+    'Save changes' => 'Save changes',
+    'Delete document' => 'Delete document',
+    'Delete document modal title' => 'Delete document',
+    'Delete document modal content' => 'Are you sure you want to delete the document?',
+    'Document name label' => 'Document name',
+    'Document active check label' => 'Active',
+    'Document variables list' => 'Document variables list',
+    'Document title label' => 'Document title',
+    'Document content label' => 'Document content',
+    'Document name validation message' => 'Please supply a document name',
+    'Document title validation message' => 'Please supply document title',
+    'Document content validation message' => 'Please supply document content',
+    'Document content max lenght message' => 'Document content must be less than 65535 character',
+    'Document translation info' => 'In order to save translation both title and content must be provided.',
+    'Document english translation info' => 'English translation is mandatory.',
+    'Document name info' => 'Document name must be unique, you can not use an already created document name.',
+    'Commercial data' => 'Commercial data checkbox',
+    'Commercial data share' => 'Commercial data share checkbox',
+    'Data protect' => 'Data protect checkbox',
+    'Terms conditions' => 'Terms and conditions checkbox',
+    'Checkbox english translation info' => "English checkbox field must be filled if the checkbox is completed in any other language."
+];

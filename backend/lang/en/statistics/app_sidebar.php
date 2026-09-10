@@ -1,0 +1,21 @@
+<?php
+    $lang = [
+        "statistics" => "Statistics",
+        "tools" => "Toolds",
+        "users-import" => 'Users import',
+        "return dashboard" => "Back to Dashboard",
+        "clients" => "Customers",
+        "clicks" => "Clicks and impressions",
+        "reputation" => "Reputation",
+        "engagement" => "Customer interaction",
+        "staffEngagement" => "Employee interaction",
+        "comparison" => "Hotel comparison",
+        "exit" => "Logout",
+        "clients stats" => "Customer statistics",
+        "clicks stats" => "Clicks and impressions",
+        "reputation stats" => "Reputation statistics",
+        "engagement stats" => "Interaction statistics",
+        "staffEngagement stats" => "Employee interaction statistics",
+        "comparison stats" => "Hotel comparison",
+        "loyalty_stats" => "Loyalty statistics",
+    ];

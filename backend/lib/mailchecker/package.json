@@ -1,0 +1,41 @@
+{
+  "name": "mailchecker",
+  "version": "1.0.1",
+  "description": "Cross-language temporary (disposable/throwaway) email detection library. Covers hundreds fake email providers.",
+  "main": "platform/node/",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -r should -R spec -G -u tdd",
+    "gen": "node gen.js",
+    "phptest": "npm run gen && php test/*.php",
+    "watch": "./node_modules/.bin/mocha -r should -R spec -G -u tdd -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/FGRibreau/mailchecker.git"
+  },
+  "keywords": [
+    "email",
+    "domains",
+    "disposable"
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "author": "Francois-Guillaume Ribreau <npm@fgribreau.com> (http://fgribreau.com)",
+  "license": "MIT",
+  "dependencies": {
+    "async": "~0.9.0",
+    "cjson": "~0.3.0",
+    "eventemitter2": "~0.4.14",
+    "glob": "~4.0.6",
+    "lodash": "~2.4.1",
+    "mu2": "~0.5.20",
+    "multiline": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodeunit": "~0.9.0",
+    "mocha": "~2.0.1",
+    "should": "~4.2.1"
+  },
+  "optionalDependencies": {}
+}

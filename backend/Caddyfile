@@ -1,0 +1,15 @@
+{
+	admin off
+
+  	frankenphp {
+    	num_threads 15
+    	max_threads auto
+		max_wait_time 10s
+  	}
+}
+
+:80 {
+	root * /app
+	encode zstd gzip
+	php_server
+}

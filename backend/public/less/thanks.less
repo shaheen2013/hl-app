@@ -1,0 +1,186 @@
+/*landings*/
+@import "bootstrap/normalize.less";
+@import "variables.less";
+@import "landing-mixins.less";
+* {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	position:relative;
+}
+body{
+	color:#000;
+	-webkit-text-stroke: 1px rgba(0,0,0,0.1);
+	font-family: Open Sans;
+	font-weight: 300;
+	font-size: 14px;
+
+}
+.backtotop-btn{
+	width:100%;
+	text-align: center;
+	margin-top:30px;
+}
+.fleft{
+	float:left;
+}
+.fright{
+	float:right;
+}
+h1,h2{
+	text-align: center;
+	font-weight: 300 !important;
+}
+strong{
+	font-weight: 400 !important;
+}
+h1{
+	font-size: 5em;
+	line-height: 1em;
+	margin: 50px 0 0;
+}
+h2{
+	font-size: 2em;
+}
+a{
+	text-decoration: none;
+	color:@azul;
+	&:hover{
+		color:@azul - 40%;
+	}
+}
+.tweet-btn{
+	text-align: center;
+	margin:20px auto;
+}
+.btn-lg{
+	font-size: 1.5em;
+	padding:15px;
+	font-weight: 700;
+	img{
+		vertical-align: middle;
+		margin-top:-2px;
+	}
+}
+.btn{
+	background: @azul;
+	border:none;
+	color:#FFF;
+	padding:10px;
+	.borderRadius(3px;);
+	&:hover{
+		background: @azul - 20%;
+		color:#FFF;
+	}
+}
+
+.whats-next{
+	width:60%;
+	margin:20px auto;
+	img{
+		display:block;
+		margin:0 auto;
+	}
+}
+
+header {
+	background: #000;
+	display:block;
+	height:70px;
+	width:100%;
+	.btn{
+		float:right;
+		margin-top:15px;
+	}
+}
+.logo{
+	float:left;
+	margin-top:20px;
+}
+.wrapper{
+	margin:0 auto;
+	padding:0 10px;
+	width:960px;
+}
+.afix{
+	position:fixed;
+	left:50%;
+	margin-left:-480px;
+	padding:0;
+}
+.bottom{
+	bottom:0;
+	p{
+		width:50%;
+	}
+}
+.comingSoon{
+	position:absolute;
+	left:0;
+	top:70px;
+}
+.footer-nav{
+	ul{
+		list-style: none;
+	}
+	li{
+		display: inline-block;
+		margin:0 5px;
+	}
+}
+
+@media only screen
+and (max-width : 480px) {
+	.wrapper{
+		text-align:center;
+	}
+	.comingSoon{
+		display:none;
+	}
+	h1{
+		font-size: 4em;
+		margin:10px 0;
+	}
+.bottom{
+	width:100% !important;
+	p,nav{
+		display:block;
+		float:none;
+		text-align: center;
+		width:100%;
+	}
+	nav ul{
+		padding:0;
+	}
+}
+}
+
+@media only screen
+and (max-width : 768px) {
+	body{
+		height:800px;
+	}
+	.comingSoon{
+		width:100px;
+		height:100px;
+	}
+	.wrapper{
+		width:90%;
+	}
+	.afix{
+		left:0;
+		margin-left:0;
+		padding:0 10px;
+	}
+	h1{
+		font-size: 3em;
+	}
+	h2{
+		font-size: 1.5em;
+	}
+	.whats-next{
+		width: 90%;
+	}
+	.tweet-btn a{
+		font-size: 1em;
+	}
+}

@@ -1,0 +1,1 @@
+<?php if (!defined('INDEXCONTROLVAL')) : exit; endif;

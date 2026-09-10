@@ -1,0 +1,45 @@
+{
+  "name": "hotelinking",
+  "version": "0.9.1",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "less": "less-watch-compiler public/less public/css main.less",
+    "uglify": "./node_modules/uglify-js/bin/uglifyjs -cm --output ./public/javascript/main.min.js -- ./public/javascript/main.js ",
+    "docs:build": "npx rimraf docs && npx eleventy",
+    "docs:serve": "npx eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://kevhotelinking@bitbucket.org/hotelinking/hotelinking.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/hotelinking/hotelinking#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^4.1.0",
+    "@kevingimbel/eleventy-plugin-mermaid": "^2.0.0",
+    "cypress": "^9.0.0",
+    "less": "^2.7.3",
+    "less-watch-compiler": "^1.13.0",
+    "markdown-it-anchor": "^8.6.5",
+    "uglify-js": "^3.6.0"
+  },
+  "dependencies": {
+    "chartjs-funnel": "^1.0.5",
+    "dotenv": "^10.0.0",
+    "gulp": "3.9.1",
+    "gulp-cli": "^2.2.0",
+    "pell": "^1.0.6",
+    "semantic-ui": "^2.4.2"
+  },
+  "resolutions": {
+    "graceful-fs": "^4.2.4"
+  }
+}

@@ -1,0 +1,159 @@
+.referral-share, .referral-share-2{
+	position:relative;
+	.rs-bg{
+		position:fixed;
+		z-index:-1;
+		top:0;
+		min-height: 100%;
+		min-width: 100%;
+		height: 100%;
+	}
+	.rs-logo{
+		.scale(1);
+		.transform-origin();
+		opacity:1;
+		display:block;
+		text-align: center;
+		margin:30px auto 0;
+		border: 2px solid #FFF;
+	}
+	.rs-text, .rs-messages{
+		color:#FFF;
+		text-shadow: 0 2px 0 rgba(0, 0, 0, 0.5);
+		text-align: center;
+		padding:15px;
+		line-height: 133%;
+		h1{
+			.hideAnimation;
+			.transform-origin();
+			opacity:1;
+			margin:0;
+			font-size: 1.8em;
+			font-weight: bold;
+		}
+		p{
+			.hideAnimation;
+			.transform-origin();
+			opacity:1;
+			margin-top:10px;
+			font-size: 1.2em;
+			line-height: 150%;
+		}
+	}
+	.rs-links{
+		opacity:1;
+		padding:15px;
+		text-align: center;
+		width:100%;
+		.rs-share{
+			.hideAnimation;
+			.transform-origin();	
+		}
+	}
+	small{
+		display:block;
+		margin-top:20px;
+		a{
+			.hideAnimation;
+			.transform-origin();
+		}
+	}
+	.rs-size{
+		.scale(0);
+		font-size: 0;
+		opacity:0;
+		font-size: 0em;
+	}
+	.rs-share-link{
+		a{
+			font-weight: bold;
+			font-size: 1.2em;
+		}
+		small{
+			margin-top:0 !important;
+		}
+		padding:15px;
+		border:1px dashed #FFF;
+		.border-radius();
+		line-height: 133%;
+		background-color: rgba(0, 0, 0, 0.5)
+	}
+	hr {
+		display: block;
+		position: relative;
+		padding: 0;
+		margin: 8px auto;
+		height: 0;
+		width: 100%;
+		max-height: 0;
+		font-size: 1px;
+		line-height: 0;
+		clear: both;
+		border: none;
+		border-top: 1px solid rgba(255,255,255,0.5);
+	}
+	.separator{
+		padding:40px 0 20px;
+		font-weight: bold;
+		font-size: 1.4em;
+	}
+	.rs-sm-button{
+		text-shadow:none;
+		a{
+			border-left:1px solid rgba(0,0,0,0.2);
+		}
+	}
+	.rs-social-media-buttons{
+		padding:0;
+		text-align: center;
+		li{
+			margin:5px;
+			display:inline-block !important;
+		}
+	}
+}
+
+.btn-app{
+	.hideAnimation;
+	opacity:1;
+}
+.rs-app-disabled{
+	opacity:0.5;
+}
+
+.sm-chart{
+	z-index:-1;
+	position:absolute;
+	width:100%;
+	height:auto;
+	top:-5px;
+	text-align: center;
+	.sm-gauge{
+		width:200px;
+	}
+}
+.rs-messages{
+	h1,p{
+		.hideAnimation;
+		.transform-origin();
+	}
+}
+
+@media only screen 
+and (min-width : 450px)  {
+	.referral-share{
+		margin-top:15%;
+
+	}
+	.rs-share-link{
+		a{
+			font-size: 2em;
+		}
+	}
+	.referral-share-2{
+		margin-top:20px;
+	}
+	.separator{
+		font-size: 2.4em;
+	}
+}

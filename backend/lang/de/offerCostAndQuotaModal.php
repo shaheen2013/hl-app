@@ -1,0 +1,12 @@
+<?php
+	$OfferCostAndQuotaModalLang = array(
+			"Modify cost, quota, and requeriments of this campaign" => "Edit cost in reward points for this campaign, allotment, and minimum nights stay (if applicable)",
+			"Reward points cost" => "Minimum spend",
+			"Allotment" => "Allotment",
+			"Nights required" => "Nights required",
+			"Reward points cost explanation" => "Set an amount in USD that represents the acumulated spend made by any guest at your hotel. We will automatically convert the amount in USD into red reward points.<br><br> For instance, let's imagine you would like to set the reward points needed for a 2 hours diving course campaign. Let's say that the real cost for you of those 2 hours class is 30 USD per hour, so total cost is 60 USD. Now you need to calculate, based on your net margin per room per night, how many nights or total spend should a guest make in order for you to fit the 60 USD and still have margin?.<br><br> If your average daily rate is 200 USD and your net margin is 15% of that (30 USD), fitting in the 60 USD diving course, you will need at least 2 nights or the equivalent 400 USD spend to actually make brake even for you. Anything above 3 nights (600 USD spend) will leave a positive margin. How much margin you leave for you on each campaign, will directly depend on how agressive or conservative your marketing strategy is. <br><br>In case you still need further assistance, please contact us <a href='mailto:customerservice@hotelinking.com' title='Customer Service'>customer service </a>",
+			"Allotment explanation" => "Set how many vouchers of this reward campaign will be available, for the period of time defined. There is no limitation on the numbers of vouchers you can set. If you wish to establish an unlimited number of vouchers, then just leave the box in blank (a cero will not work).",
+			"Requirements explanation" => "This option will only appear when you have selected Free nights, Upgrades and % Discount per night. We have added this option in order to trigger a longer stay by any of the guests interested in acquiring this reward campaign. One example could be a free upgrade from standard to deluxe room when staying at least 3 nights in a row.",
+			"Confirm" => "Ok"
+								);
+ ?>

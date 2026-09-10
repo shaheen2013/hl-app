@@ -1,0 +1,27 @@
+services:
+  php:
+    container_name: hlapp
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        APP_ENV: local
+    ports:
+      - "9005:80"
+      - "9006:443"
+      - "9006:443/udp"
+    volumes:
+      - ./:/app
+      - ./xdebug.ini:/usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini
+      - ./error_reporting.ini:/usr/local/etc/php/conf.d/error_reporting.ini
+    command: ["frankenphp","run","--config","/etc/frankenphp/Caddyfile"]
+    networks:
+      - hotelinking
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    tty: true
+    restart: unless-stopped
+
+networks:
+  hotelinking:
+    external: true

@@ -1,0 +1,21 @@
+<?php
+$lang = array(
+    "section"               => "Configuración de textos personalizados",
+    "scanTitle"             => "Página de escaneo",
+    "scanSubtitle"          => "Texto legal acerca de la documentación aportada",
+    "scanText"              => "Cuando el usuario está en la página de escaneo, se le advierte sobre la documentación que va a aportar haciendo referencia a la legalidad española. Es posible que necesite adaptaciones en determinadas circunstancias.",
+    "confirmationTitle"     => "Página de confirmación",
+    "confirmationSubtitle"  => "HTML libre para substituir el QR de la página de confirmación",
+    "confirmationText"      => "Cuando se llega a la página de confirmación se enseña un QR al usuario. Es posible que algunos hoteles quieran sustituirlo por cualquier otra información ya que no le dan ningún uso.",
+    "save changes"          => "Guardar cambios",
+    "active"                => "Activado",
+    "gdprTitle"             => "Página inicial RGPD",
+    "gdprSubtitle"          => "Texto sobre el Reglamento General de Protección de Datos",
+    "gdprText"              => "Cuando el usuario entra en Autocheckin se le muestra el texto del RGPD por defecto que proporciona Hotelinking. Si se quiere modificar este, es necesario especificar un texto alternativo y activarlo desde esta sección.",
+    "phoneTitle"             => "Página de Teléfono",
+    "phoneSubtitle"          => "Texto informativo acerca de las notificaciones durante la estancia del huésped",
+    "phoneText"              => "Cuando el usuario se encuentra en la página del formulario de teléfono, se muestra el texto predeterminado proporcionado por Hotelinking. El texto predeterminado informa al huésped que, si acepta, el hotel le enviará mensajes SMS sobre cualquier evento que pueda interesarle durante su estancia. Si desea modificar esto, debe especificar un texto alternativo y activarlo desde esta sección.",
+    "commentsTitle"             => "Página de comentarios",
+    "commentsSubtitle"          => "Texto informativo acerca de los comentarios del huésped",
+    "commentsText"              => "Permite añadir una explicación adicional personalizada para dar más contexto a esta página. Por defecto no aparece ninguna explicación. Ej: “Cualquier petición será valorada pero no será vinculante”.",
+);

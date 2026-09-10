@@ -1,0 +1,117 @@
+.table {
+    .table-header {
+      font-weight: bold;
+      border-left: 1px solid @grisClaro;
+      border-right: 1px solid @grisClaro;
+    }
+    .table-row {
+      background: #FFF;
+      border: 1px solid @grisClaro!important;
+      td {
+        // vertical-align: middle;
+        // padding: 15px;
+        &.satisfaction-list-comment{
+          max-width: 49rem;
+        }
+      }
+    }
+  }
+
+td.hideOrderControl.sorting_disabled:after {
+  display: none;
+}
+
+th.dt-center, td.dt-center { 
+    vertical-align: middle!important;
+}
+
+  .dataTables_wrapper{
+    .dataTables_header{
+      padding: 2rem 0 ;
+      .dataTables_search{
+        .dataTables_filter{
+        text-align: left!important;
+        }
+      }
+      .dt-buttons{
+        float: right;
+      }
+    }
+    .dataTables_main{
+      // min-height: 30rem;
+      .dataTables_scroll{
+        border: 1px solid #D7D7D7!important;
+        .dataTables_scrollHead{
+            border-bottom: 1px solid rgb(221, 221, 221)!important;
+          td{
+            // padding: 1rem 2.5rem 1rem 0.8rem;
+            // font-weight: bold;
+            &.sorting_asc:after{
+            //   color: blue; 
+            }
+            &.sorting_desc:after{
+
+            //   color: green; 
+            }
+            &:after{
+                content: "\f0dc"!important;
+                font-family: "FontAwesome"!important;
+                color: @azul;
+                bottom: 10px!important;
+                right: 1rem;
+                opacity:1!important;
+            }
+          }
+      
+        }
+        .dataTables_scrollBody{
+        }
+      }
+    }
+    .dataTables_footer{
+      padding: 2rem 0!important;
+    }
+  }
+
+  .table-interactive tbody tr {
+    cursor: pointer;
+  }
+
+  .table-interactive tbody tr:hover td{
+    background-color: rgba(101, 195, 223, 0.1);
+    box-shadow: inset 0 15px 15px -15px rgba(0,0,0,0.125);
+  }
+  
+  .table-extra-cell{
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #D7D7D7;
+    border-bottom: none;
+    padding: 8px;
+  }
+  .dataTables_custom_loader{
+    // position: relative;
+    display: table;
+    width: 100%;
+    min-height: 40rem;
+
+    .svg-container{
+      display: table-cell;
+      vertical-align: middle;
+      width: 50%;      
+      height: 100%;
+      margin: 0 auto;
+
+      svg {
+        margin: 0 auto;
+        display: block;
+      }
+    }
+  }
+
+  .sentence-nowrap{    
+  white-space: nowrap;
+  display: inline-block;
+  width: 209px;
+  overflow: hidden;
+  text-overflow: ellipsis;}

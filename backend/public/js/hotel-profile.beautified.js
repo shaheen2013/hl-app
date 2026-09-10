@@ -1,0 +1,99 @@
+$(document).ready(function() {
+    $(".validation-form").bootstrapValidator({
+        message: "This value is not valid",
+        feedbackIcons: {
+            valid: "fa fa-check",
+            invalid: "fa fa-exclamation",
+            validating: "fa fa-refresh"
+        },
+        live: "enabled",
+        fields: {
+            hotelName: {
+                validators: {
+                    noEmpty: {
+                        message: "The hotel name can´t be empty"
+                    },
+                    stringLength: {
+                        min: 3,
+                        max: 50,
+                        message: "The hotel name must be more than 3 characters and less than 50 characters"
+                    }
+                }
+            },
+            hotelStreet: {
+                validators: {
+                    noEmpty: {
+                        message: "The hotel address can´t be empty"
+                    },
+                    stringLength: {
+                        min: 6,
+                        max: 30,
+                        message: "The hotel street address must be more than 6 and less than 30 characters long"
+                    }
+                }
+            },
+            hotelCity: {
+                validators: {
+                    noEmpty: {
+                        message: "The hotel Country can´t be empty"
+                    },
+                    regexp: {
+                        regexp: /^((?!Selecciona).)*$/,
+                        message: "The hotel City can´t be empty"
+                    }
+                }
+            },
+            hotelWebsite: {
+                validators: {
+                    noEmpty: {
+                        message: "The hotel website can´t be empty"
+                    }
+                }
+            },
+            hotelierEmail: {
+                validators: {
+                    noEmpty: {
+                        message: "Your email can´t be empty"
+                    },
+                    emailAddress: {
+                        message: "Your email needs to be valid"
+                    }
+                }
+            },
+            hotelierName: {
+                validators: {
+                    noEmpty: {
+                        message: "Please write your name"
+                    }
+                }
+            },
+            logoHotel: {
+                validators: {
+                    noEmpty: {
+                        message: "You need to upload a logo"
+                    },
+                    file: {
+                        extension: "jpeg,png,gif,jpg",
+                        type: "image/jpeg,image/png, image/gif, image/jpg",
+                        message: "The selected file is not valid"
+                    }
+                }
+            },
+            divisas: {
+                validators: {
+                    noEmpty: {
+                        message: "Select a currency"
+                    }
+                }
+            },
+            twitterAccount: {
+                validators: {
+                    noEmpty: {
+                        message: "Insert your Twitter username"
+                    }
+                }
+            }
+        }
+    });
+    $(".validation-form").bootstrapValidator("validate");
+});

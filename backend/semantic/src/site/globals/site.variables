@@ -1,0 +1,40 @@
+/*******************************
+         Site Settings
+*******************************/
+/*-------------------
+       Fonts
+--------------------*/
+
+@fontName          : 'Lato';
+@fontSmoothing     : antialiased;
+
+/*-------------------
+    Brand Colors
+--------------------*/
+
+@primaryColor   : #715aff; /* hotelinking palette */
+@secondaryColor : #00ffff; /* hotelinking palette */
+@red            : #e04f5f; /* hotelinking palette */
+@orange         : #ed8a19; /* hotelinking palette */
+@green          : #32bea6; /* hotelinking palette */
+
+/*-------------------
+    Hotelinking Colors
+--------------------*/
+
+@lightGrey : #E8EDF7; /* hotelinking palette */
+@lighterGrey : #fbfaff; /* hotelinking palette */
+@DarkerGrey : #aba9ba; /* hotelinking palette */
+
+/*-------------------
+      Borders
+--------------------*/
+
+@borderColor               : rgba(34, 36, 38, 0.08);
+@internalBorderColor       : rgba(245, 244, 255, 1);
+
+/*-------------------
+        Page
+--------------------*/
+
+@textColor           : rgba(0, 0, 0, 0.60);

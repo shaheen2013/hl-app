@@ -1,0 +1,188 @@
+/*share booking*/
+.addLang-group{
+  width: 100%;
+  text-align: center;
+  font-size: 6rem;
+  margin-bottom: 0;
+  border-top: 1px solid #cccccc;
+  padding-top: 1.5rem;
+  margin-top: 3rem;
+}
+
+.clicable{
+  cursor: pointer;
+}
+.fa-minus-square-o:before {
+  color: red;
+  content: "\f147";
+  position: absolute;
+  right: 3rem;
+  top: 0.5rem;
+}
+.bordered-share{
+  p{
+    font-size:12px !important;
+  }
+  border:1px dashed #3B5998;
+  padding:15px;
+  margin:15px 0;
+  border-radius:10px;
+  h4{
+    margin:0;
+    font-size:14px;
+    font-weight:bold;
+  }
+  .fa-facebook-official{
+    color: #3B5998;
+  }
+}
+.iframe-thanks-text{
+  padding:30px;
+}
+.hotel-booking-share{
+  .tranquility-msg{
+    background:@verde;
+    color:#FFF;
+    padding: 10px;
+    margin-bottom:10px;
+  }
+  background-color:#FFF;
+  .bookingShare{
+    display: table;
+    text-align:center;
+    width:100%;
+    overflow: hidden;
+    padding-bottom:30px;
+  }
+  .booking-share-2, .booking-share-5{
+    .tranquility-msg{
+      margin-bottom:0 !important;
+    }
+    height:100%;
+    #small-msg{
+      color:#000 !important;
+    }
+  }
+  .booking-share-4{
+    .panel{
+      padding:0;
+    }
+    h1{
+      margin-top:6px;
+    }
+  }
+  .booking-share-3{
+    .tranquiliy-msg{
+      font-size:10px;
+    }
+
+  }
+  #uvTab{
+    display:none;
+  }
+
+  .fa-times{
+    position:absolute;
+    top:10px;
+    right:10px;
+  }
+  h1{
+    font-weight: bold;
+    margin-top:0;
+    font-size:26px;
+  }
+  h2{
+    margin-bottom:0;
+  }
+  p{
+    font-size: 1.2em;
+  }
+
+  .btn-blanco{
+    margin-top:20px;
+    border-radius:10px;
+    background-color: #31BBF8;
+    box-shadow: 0 6px 0 rgba(40,153,203,100);
+    color:#FFFFFF;
+    &:hover{
+      background-color: #31BBF8 + 50%;
+      box-shadow: 0 6px 0 rgba(73,212,235,100);
+      color:#FFF;
+    }
+  }
+
+  footer{
+    display:none;
+  }
+
+  .connectingFB{
+    position:absolute;
+    text-align:center;
+    top:38%;
+    z-index:2000000001;
+    width:100%;
+    font-size:1.4em;
+    color:#FFF;
+    font-weight:bold;
+  }
+}
+
+.facebook{
+  color:#3B5998;
+}
+.facebook-btn-shadow{
+  box-shadow: 0 3px 0 #273C67;
+}
+#small-msg{
+  position:absolute;
+  bottom:5px;
+  font-size:11px;
+  text-align:center;
+  display: block;
+  width: 400px;
+  left: 50%;
+  margin-left: -200px;
+}
+@media (max-width:479px) {
+  .hotel-booking-share{
+    h1{
+      font-size: 20px;
+    }
+    h2{
+      font-size: 16px;
+    }
+    p{
+      font-size: 12px;
+    }
+    #small-msg{
+      margin-left: 0;
+      width:100%;
+      left:0;
+      padding:5px;
+    }
+    .tranquility-msg{
+      padding:2px;
+      margin-bottom:3px;
+      font-size: .8em;
+    }
+    .booking-share-2{
+      .btn-blanco{
+        margin-top:-5px;
+      }
+      #small-msg{
+        display:none;
+      }
+    }
+    .booking-share-4{
+      .img-thumbnail{
+        display:none;
+      }
+      .panel-footer{
+        small, button{
+          float:none !important;
+          text-align: center !important;
+        }
+      }
+    }
+  }
+}

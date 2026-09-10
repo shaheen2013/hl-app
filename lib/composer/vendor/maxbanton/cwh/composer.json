@@ -1,0 +1,47 @@
+{
+    "name": "maxbanton/cwh",
+    "type": "library",
+    "description": "AWS CloudWatch Handler for Monolog library",
+    "keywords": [
+        "aws",
+        "cloudwatch",
+        "monolog"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Max Leonov",
+            "email": "hi@maxleonov.pw",
+            "homepage": "https://maxleonov.pw"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/maxbanton/cwh/issues",
+        "source": "https://github.com/maxbanton/cwh"
+    },
+    "require": {
+        "php": ">=5.6.0",
+        "aws/aws-sdk-php": "^3.18",
+        "monolog/monolog": "^1.20"
+    },
+    "require-dev": {
+        "maxbanton/dd": "^1.0",
+        "php-coveralls/php-coveralls": "^2.0",
+        "phpunit/phpunit": "^5.6",
+        "squizlabs/php_codesniffer": "2.*"
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "autoload": {
+        "psr-4": {
+            "Maxbanton\\Cwh\\": "src"
+        }
+    },
+    "minimum-stability": "stable",
+    "scripts": {
+        "check-syntax": "vendor/bin/phpcs --standard=psr2 --ignore=Tests src/",
+        "fix-syntax": "vendor/bin/phpcbf --standard=psr2 src/",
+        "tests": "vendor/bin/phpunit"
+    }
+}

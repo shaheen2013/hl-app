@@ -1,0 +1,11 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+#chain_hotel_toggle {
+  padding-top : .5rem;
+}
+
+#dashboard_menu_submit_btn {
+  text-align: right;
+}

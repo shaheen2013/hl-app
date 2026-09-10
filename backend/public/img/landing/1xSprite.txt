@@ -1,0 +1,107 @@
+.instagram-icon, .twitter-icon, .facebook-icon, .social-media-icon-4, .linkedin-icon, 
+.pinterest-icon, .social-media-icon, .icons-arrow-1, .icons-arrow-2, .social-media-icon-3, 
+.social-media-icon-2, .icons-rubies-1, .icons-rubies-2, .white-arrow, .black-arrow, 
+.sprite-icons
+{ max-width: 100%; background-size: 100%; background-image: url('png.png'); }
+ 
+.instagram-icon { background-position: 0 0%; background-size: 100%; }
+.twitter-icon { background-position: 0 5.82404%; background-size: 108.208955%; }
+.facebook-icon { background-position: 0 9.181141%; background-size: 109.848485%; }
+.social-media-icon-4 { background-position: 0 13.802436%; background-size: 119.834711%; }
+.linkedin-icon { background-position: 0 24.65582%; background-size: 123.931624%; }
+.pinterest-icon { background-position: 0 28.819876%; background-size: 130.630631%; }
+.social-media-icon { background-position: 0 35.175202%; background-size: 131.818182%; }
+.icons-arrow-1 { background-position: 0 44.346734%; background-size: 140.776699%; }
+.icons-arrow-2 { background-position: 0 49.120603%; background-size: 140.776699%; }
+.social-media-icon-3 { background-position: 0 57.276368%; background-size: 142.156863%; }
+.social-media-icon-2 { background-position: 0 69.553451%; background-size: 155.913978%; }
+.icons-rubies-1 { background-position: 0 74.723926%; background-size: 207.142857%; }
+.icons-rubies-2 { background-position: 0 77.055215%; background-size: 207.142857%; }
+.white-arrow { background-position: 0 82.106599%; background-size: 263.636364%; }
+.black-arrow { background-position: 0 87.279597%; background-size: 315.217391%; }
+.sprite-icons { background-position: 0 100%; background-size: 690.47619%; }
+
+<img class="instagram-icon" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJEAAAAtAQMAAACUHhtuAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABFJREFUeNpjYBgFo2AUDCQAAAOEAAGduY02AAAAAElFTkSuQmCC">
+<img class="twitter-icon" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIYAAAAZAQMAAADOh8REAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAA5JREFUeNpjYBgFQxsAAAHCAAErDG6GAAAAAElFTkSuQmCC">
+<img class="facebook-icon" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAAAaAQMAAABM5mbXAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAA5JREFUeNpjYBgFww0AAAHUAAFkkp1qAAAAAElFTkSuQmCC">
+<img class="social-media-icon-4" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHkAAABdAQMAAAC7CVsqAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABVJREFUeNpjYBgFo2AUjIJRMAoIAAAGLQABqNgwEQAAAABJRU5ErkJggg==">
+<img class="linkedin-icon" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHUAAAAhAQMAAADd1XYeAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAA5JREFUeNpjYBgFowABAAIQAAGa4R7GAAAAAElFTkSuQmCC">
+<img class="pinterest-icon" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG8AAAAbAQMAAABIuEP0AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAA5JREFUeNpjYBgFgw4AAAGVAAENv6LtAAAAAElFTkSuQmCC">
+<img class="social-media-icon" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABaAQMAAABjfvEDAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABRJREFUeNpjYBgFo2AUjIJRQD4AAAVGAAG8w7G9AAAAAElFTkSuQmCC">
+<img class="icons-arrow-1" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGcAAAAkAQMAAACuQ7Z4AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAA5JREFUeNpjYBgFIxEAAAH4AAF2a/E1AAAAAElFTkSuQmCC">
+<img class="icons-arrow-2" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGcAAAAkAQMAAACuQ7Z4AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAA5JREFUeNpjYBgFIxEAAAH4AAF2a/E1AAAAAElFTkSuQmCC">
+<img class="social-media-icon-3" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGYAAABTAQMAAABXpuA/AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABJJREFUeNpjYBgFo2AUjIKBBgAEigABxy187AAAAABJRU5ErkJggg==">
+<img class="social-media-icon-2" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF0AAABdAQMAAAD9v/iAAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABJJREFUeNpjYBgFo2AUjIIhBgAEuQABpqv0SwAAAABJRU5ErkJggg==">
+<img class="icons-rubies-1" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAAARAQMAAABaa0iIAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBgqAAAAqgABhMI7gQAAAABJRU5ErkJggg==">
+<img class="icons-rubies-2" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAAARAQMAAABaa0iIAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBgqAAAAqgABhMI7gQAAAABJRU5ErkJggg==">
+<img class="white-arrow" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAAAsAQMAAAD7BLJdAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAA1JREFUeNpjYBgFtAQAAWAAAZtlk6wAAAAASUVORK5CYII=">
+<img class="black-arrow" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAmAQMAAACBJDsZAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAA1JREFUeNpjYBgFEAAAAQoAAfZQaDEAAAAASUVORK5CYII=">
+<img class="sprite-icons" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAABjAQMAAABOotkJAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAA5JREFUeNpjYBgFgwUAAAGMAAEcT27oAAAAAElFTkSuQmCC">
+
+@2x
+
+.instagram-icon-2x, .twitter-icon-2x, .facebook-icon-2x, .social-media-icon-4-2x, .linkedin-icon-2x, 
+.pinterest-icon-2x, .social-media-icon-2x, .icons-arrow-1-2x, .icons-arrow-2-2x, .social-media-icon-3-2x, 
+.social-media-icon-2-2x, .icons-rubies-1-2x, .icons-rubies-2-2x, .white-arrow-2x, .black-arrow-2x, 
+.sprite-icons-2x
+{ max-width: 100%; background-size: 100%; background-image: url('png.png'); }
+ 
+.instagram-icon-2x { background-position: 0 0%; background-size: 100%; }
+.twitter-icon-2x { background-position: 0 5.81175%; background-size: 108.208955%; }
+.facebook-icon-2x { background-position: 0 9.108159%; background-size: 109.848485%; }
+.social-media-icon-4-2x { background-position: 0 13.683483%; background-size: 119.834711%; }
+.linkedin-icon-2x { background-position: 0 24.633057%; background-size: 123.931624%; }
+.pinterest-icon-2x { background-position: 0 28.752375%; background-size: 130.630631%; }
+.social-media-icon-2x { background-position: 0 35.099794%; background-size: 131.818182%; }
+.icons-arrow-1-2x { background-position: 0 44.330557%; background-size: 140.776699%; }
+.icons-arrow-2-2x { background-position: 0 49.071108%; background-size: 140.776699%; }
+.social-media-icon-3-2x { background-position: 0 57.259714%; background-size: 142.156863%; }
+.social-media-icon-2-2x { background-position: 0 69.661368%; background-size: 155.913978%; }
+.icons-rubies-1-2x { background-position: 0 74.796748%; background-size: 207.142857%; }
+.icons-rubies-2-2x { background-position: 0 77.048155%; background-size: 207.142857%; }
+.white-arrow-2x { background-position: 0 82.018111%; background-size: 266.055046%; }
+.black-arrow-2x { background-position: 0 87.154785%; background-size: 318.681319%; }
+
+<img class="instagram-icon-2x" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASIAAABaAQMAAAAmdsntAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABpJREFUeNrtwTEBAAAAwqD1T20IX6AAAAB4DQ1cAAH/0Q2uAAAAAElFTkSuQmCC">
+<img class="twitter-icon-2x" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQwAAAAyAQMAAACTRXe5AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUeNpjYBgFo2AUjIJRMAqGCwAABtYAAePHQZcAAAAASUVORK5CYII=">
+<img class="facebook-icon-2x" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQgAAAA0AQMAAABM9zTeAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABZJREFUeNpjYBgFo2AUjIJRMAqGLwAABugAAfbAlIIAAAAASUVORK5CYII=">
+<img class="social-media-icon-4-2x" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPIAAAC6AQMAAACurYLmAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABxJREFUeNrtwTEBAAAAwqD1T+1vBqAAAAAAAIA3F0AAAb9b+scAAAAASUVORK5CYII=">
+<img class="linkedin-icon-2x" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOoAAABCAQMAAABjFdiOAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABdJREFUeNpjYBgFo2AUjIJRMApGwcgCAAf+AAGd/3IqAAAAAElFTkSuQmCC">
+<img class="pinterest-icon-2x" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAAA2AQMAAACSvrUbAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABVJREFUeNpjYBgFo2AUjIJRMArQAQAGHgAB3YX1XwAAAABJRU5ErkJggg==">
+<img class="social-media-icon-2x" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANwAAAC0AQMAAADFM9D1AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABxJREFUeNrtwTEBAAAAwqD1T20Hb6AAAAAAAH4DFGQAAZH2bCgAAAAASUVORK5CYII=">
+<img class="icons-arrow-1-2x" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAM4AAABIAQMAAACEOFhCAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABdJREFUeNpjYBgFo2AUjIJRMApGwWABAAeYAAEjdSofAAAAAElFTkSuQmCC">
+<img class="icons-arrow-2-2x" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAM4AAABIAQMAAACEOFhCAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABdJREFUeNpjYBgFo2AUjIJRMApGwWABAAeYAAEjdSofAAAAAElFTkSuQmCC">
+<img class="social-media-icon-3-2x" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMwAAACmAQMAAACsg/KNAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABtJREFUeNrtwTEBAAAAwqD1T20KP6AAAAAA+BoRggABBlZ6gQAAAABJRU5ErkJggg==">
+<img class="social-media-icon-2-2x" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALoAAAC6AQMAAAAjwMWyAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABtJREFUeNrtwQENAAAAwqD3T+3sARQAAAAA3AASKgABi3UsbgAAAABJRU5ErkJggg==">
+<img class="icons-rubies-1-2x" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAAAiAQMAAAC3GKPjAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAA9JREFUeNpjYBgFo2CgAQAChgABUYBoQwAAAABJRU5ErkJggg==">
+<img class="icons-rubies-2-2x" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAAAiAQMAAAC3GKPjAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAA9JREFUeNpjYBgFo2CgAQAChgABUYBoQwAAAABJRU5ErkJggg==">
+<img class="white-arrow-2x" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG0AAABXAQMAAAA011neAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABNJREFUeNpjYBgFo2AUjIJRgAIABRkAAeY7/fgAAAAASUVORK5CYII=">
+<img class="black-arrow-2x" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFsAAABMAQMAAAA4K1n5AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABFJREFUeNpjYBgFo2AUDEcAAAPcAAFFSKRGAAAAAElFTkSuQmCC">
+<img class="sprite-icons-2x" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAADGAQMAAACei4DhAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABRJREFUeNpjYBgFo2AUjIJRQFsAAAVqAAFUGm17AAAAAElFTkSuQmCC">
+.sprite-icons-2x { background-position: 0 100%; background-size: 690.47619%; }
+
+blue icons 1x
+
+.bubble-heart-icon, .card-icon, .computer-icon, .diana-icon, .gauge-icon,
+.mobile-icon, .share-icon, .shopping-cart-icon, .viral-icon
+{ max-width: 100%; background-size: 100%; background-image: url('png.png'); }
+ 
+.bubble-heart-icon { background-position: 0 0%; background-size: 100%; }
+.card-icon { background-position: 0 12.5%; background-size: 100%; }
+.computer-icon { background-position: 0 25%; background-size: 100%; }
+.diana-icon { background-position: 0 37.5%; background-size: 100%; }
+.gauge-icon { background-position: 0 50%; background-size: 100%; }
+.mobile-icon { background-position: 0 62.5%; background-size: 100%; }
+.share-icon { background-position: 0 75%; background-size: 100%; }
+.shopping-cart-icon { background-position: 0 87.5%; background-size: 100%; }
+.viral-icon { background-position: 0 100%; background-size: 100%; }
+
+<img class="bubble-heart-icon" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF0AAABdAQMAAAD9v/iAAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABJJREFUeNpjYBgFo2AUjIIhBgAEuQABpqv0SwAAAABJRU5ErkJggg==">
+<img class="card-icon" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF0AAABdAQMAAAD9v/iAAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABJJREFUeNpjYBgFo2AUjIIhBgAEuQABpqv0SwAAAABJRU5ErkJggg==">
+<img class="computer-icon" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF0AAABdAQMAAAD9v/iAAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABJJREFUeNpjYBgFo2AUjIIhBgAEuQABpqv0SwAAAABJRU5ErkJggg==">
+<img class="diana-icon" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF0AAABdAQMAAAD9v/iAAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABJJREFUeNpjYBgFo2AUjIIhBgAEuQABpqv0SwAAAABJRU5ErkJggg==">
+<img class="gauge-icon" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF0AAABdAQMAAAD9v/iAAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABJJREFUeNpjYBgFo2AUjIIhBgAEuQABpqv0SwAAAABJRU5ErkJggg==">
+<img class="mobile-icon" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF0AAABdAQMAAAD9v/iAAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABJJREFUeNpjYBgFo2AUjIIhBgAEuQABpqv0SwAAAABJRU5ErkJggg==">
+<img class="share-icon" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF0AAABdAQMAAAD9v/iAAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABJJREFUeNpjYBgFo2AUjIIhBgAEuQABpqv0SwAAAABJRU5ErkJggg==">
+<img class="shopping-cart-icon" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF0AAABdAQMAAAD9v/iAAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABJJREFUeNpjYBgFo2AUjIIhBgAEuQABpqv0SwAAAABJRU5ErkJggg==">
+<img class="viral-icon" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF0AAABdAQMAAAD9v/iAAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABJJREFUeNpjYBgFo2AUjIIhBgAEuQABpqv0SwAAAABJRU5ErkJggg==">

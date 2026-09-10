@@ -1,0 +1,48 @@
+/*******************************
+         Site Overrides
+*******************************/
+.logo {
+  font-size: 1.2rem;
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    font-size: 1rem;
+  }
+}
+
+.beta_logo {
+  position: absolute;
+  top: 4.5rem;
+  left: 3rem;
+}
+
+.active-dropdown {
+  color: @primaryColor !important;
+  border-color: @primaryColor !important;
+}
+
+.hotel_logo {
+  overflow: hidden;
+  padding: 0 !important;
+  img {
+    height: 6.5rem;
+    width: 10rem !important;
+  }
+}
+
+.mobile_title {
+  width: 100%;
+  text-align: center;
+  text-overflow: ellipsis;
+}
+
+.ui.menu .item {
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    padding: 1rem;
+  }
+}
+
+.ui.secondary.menu .dropdown.item:hover,
+.ui.secondary.menu .link.item:hover,
+.ui.secondary.menu a.item:hover {
+  background: transparent;
+  color: @primaryColor;
+}

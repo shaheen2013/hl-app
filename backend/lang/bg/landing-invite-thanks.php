@@ -1,0 +1,31 @@
+<?php 
+	$LandingInviteThanksLang = array(
+		"Thanks for sing up for an invite" => "Invite requested",
+		"We are inviting hotels from 3 stars" => "Thanks for requesting an invite!",
+		"Text for explanation" => "Hotelinking is currently available for 3, 4, and 5 stars hotels only.<br>We are working night and day to welcome more hotels every day.<br>As soon as Hotelinking is available for hotels of your category, we will let you now instantly!.<br>We will be in touch by e-mail soon.",		
+		"Thanks for join us" => "Thanks, your request has been received!",
+		"As reward for your confidence with us we will give you 500 guests slots free for your hotel" => "We are processing your request. If your hotel or chain fits our requirements, an email will be sent within the next 24 hours.<br>You will be entitled to manage up to <strong>500 loyal guests for free</strong>, with no time limitation!",
+		"¿Do you want 12.000 guest slots for free?" => "Want to manage up to <strong>10,000</strong> loyal guests <span class='verde'>for free</span class>?",
+		"Texto enlace link" => "Get <strong>3 different hotels</strong> to sign up with this unique URL:",
+		"Click on the link above to copy it to your clipboard" => "Click on the link above to copy it to your clipboard",	
+		"Share this link on twitter" => "Share unique link on twitter",		
+		"And..." => "And...",		
+		"Link copied to your clipboard" => "Link copied to your clipboard!",
+		"Close" => "Close",
+		"TIP: you can paste it just right click and select paste" => "TIP: Share it via e-mail, Linkedin, Facebook and whatsapp. The more you share the higher chances to reach the goal of 3 sign ups! ",
+		"You didn´t provided a valid mail in the previous step" => "The email provided is not vaild",
+		"Please" => "Please",
+		"come back" => "Go back",
+		"and fill the email field" => "and provide a valid email",
+		"Error inserting in database" => "Error inserting in database",
+		"Use alternative contact method" => "Use alternative contact method",
+		"send a mail to us" => "send a mail to us",
+		"And tell us about your hotel:" => "And tell us about your hotel:",
+		"Hotel Name" => "Hotel Name",
+		"Hotel Phone" => "Hotel Phone",
+		"Hotel Website" => "Hotel Website",
+		"come back" => "Go back",
+		"twitterText" => '@Hotelinking is a %23cloud %23hotelloyalty %26 %23referral solution. Reserve your free 500 loyal guest plan at',
+		"Remove landing notifications" => "Remove notifications from landing"
+	);
+ ?>

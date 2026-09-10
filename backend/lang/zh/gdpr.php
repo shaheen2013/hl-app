@@ -1,0 +1,56 @@
+<?php
+$gdprTreatments = [
+    'informal' => [
+        "intro_title"                      => "保护您的隐私我们责无旁贷",
+        "intro_question"                   => "您是否为这里的宾客？",
+        "intro_answer_client"              => "是的，我住在这里",
+        "intro_answer_not_client"          => "我不住在这里",
+        "intro_accept_restrictive"         => "继续",
+        "intro_accept_conditions"          => "接受并继续",
+        "checkbox_notifications"           => "我接受向 $1 提供我的个人信息以便接收商业推广讯息。",
+        "commercial_profile"               => "我同意将我的数据纳入商业档案，以便从以下机构收到个性化的优惠信息 $1。",
+        "go_back"                          => "返回",
+        "confirm"                          => "确认",
+        'PMS validator require msg'        => "请输入以下信息，以便确认您是这里的宾客：",
+        'PMS validator require name'       => '输入您的全名：',
+        'PMS validator require first name' => '输入您的名字：',
+        'PMS validator require surname'    => '输入您的首姓：',
+        'PMS validator require room'       => '输入您的房间号：',
+        'PMS validator require document id'=> '输入您的证件号码：',
+        'PMS validator title list users'   => '选择您的身份：',
+        'OR'                               => '或者',
+        'PMS validator access code'        => '输入您的无线网络使用密码：',
+        'PMS validator radius ticket'      => '在此处输入密码',
+        'PMS validator radiusTicketMsg'    => "如未取得Wi-Fi密码，请咨询工作人员",
+        "accommodated tab"                 => "我住在这里",
+        "code tab"                         => "我有一个代码"
+    ],
+
+    'formal' => [
+        "intro_title"                      => "保护您的隐私我们责无旁贷",
+        "intro_question"                   => "您是否为这里的宾客？",
+        "intro_answer_client"              => "是的，我住在这里",
+        "intro_answer_not_client"          => "我不住在这里",
+        "intro_accept_restrictive"         => "继续",
+        "intro_accept_conditions"          => "接受并继续",
+        "checkbox_notifications"           => "我接受向 $1 提供我的个人信息以便接收商业推广讯息。",
+        "commercial_profile"               => "我同意将我的数据纳入商业档案，以便从以下机构收到个性化的优惠信息 $1。",
+        "go_back"                          => "返回",
+        "confirm"                          => "确认",
+        'PMS validator require msg'        => "请输入以下信息，以便确认您是这里的宾客：",
+        'PMS validator require name'       => '输入您的全名：',
+        'PMS validator require first name' => '输入您的名字：',
+        'PMS validator require surname'    => '输入您的首姓：',
+        'PMS validator require room'       => '输入您的房间号：',
+        'PMS validator require document id'=> '输入您的证件号码：',
+        'PMS validator title list users'   => '选择您的身份：',
+        'OR'                               => '或者',
+        'PMS validator access code'        => '输入您的无线网络使用密码：',
+        'PMS validator radius ticket'      => '在此处输入密码',
+        'PMS validator radiusTicketMsg'    => "如未取得Wi-Fi密码，请咨询工作人员",
+        "accommodated tab"                 => "我住在这里",
+        "code tab"                         => "我有一个代码"
+    ],
+];
+
+$gdprLang = $gdprTreatments[$_SESSION['hotel']['treatment']];

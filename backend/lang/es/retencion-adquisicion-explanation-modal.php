@@ -1,0 +1,7 @@
+<?php
+	$RetencionAdquisicionModalLang = array(
+			"Adquisicion y retencion" => "¿Quieres atraer o retener clientes?",
+			"Explicación de las ofertas de retención y adquisición" => "Puedes dirigirte a dos tipos diferentes de huéspedes: Existentes y nuevos <br> Si crea <strong> campañas para clientes existentes </ strong> (los visibles en la base de datos de huéspedes), se aplicarán los puntos de recompensa rojos. Puntos de recompensa rojos se obtienen en cada check-out por el gasto total de la factura. Cada USD gastado se convierte en puntos de recompensa rojos. Estos puntos de recompensa sólo pueden ser gastados por los clientes en tu hotel.<br>Al crear una campaña de fidelización para sus clientes existentes, podrás decidir el coste en puntos para cada campaña. <br> Si creas campañas de fidelización <strong> para adquirir nuevos clientes </ strong>, se aplicarán los puntos de recompensa azules. Los nuevos clientes provienen de la base de datos de Hotelinking, y ninguno de esos clientes potenciales se habrá alojado en su hotel antes. El coste en puntos de recompensa azules se calcula sobre la base de un algoritmo. Cuanto mejor sea la campaña, y mejor será el hotel, más puntos de recompensa azules tendrán que ser gastados por los clientes potenciales para obtener acceso a estas campañas.",
+			"Close" => "Cerrar"
+								);
+ ?>

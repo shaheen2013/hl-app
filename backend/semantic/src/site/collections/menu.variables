@@ -1,0 +1,19 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+
+@itemVerticalPadding: 2rem;
+@itemHorizontalPadding: 2rem;
+
+/* Secondary */
+@secondaryBackground: white;
+
+/* Pointing */
+@secondaryPointingActiveBorderColor: @primaryColor;
+@secondaryPointingActiveTextColor: @primaryColor;
+
+/* Text */
+@textMenuActiveItemColor: @primaryColor;
+
+/* Fixed */
+@fixedPrecedingGridMargin: 6.75rem;

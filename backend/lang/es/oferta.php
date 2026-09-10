@@ -1,0 +1,33 @@
+<?php
+	$OfertaLang = array(
+			"oferta valida desde el" => "oferta valida desde el",
+			"hasta el" => "hasta el",
+			"Descripción de la oferta" => "Descripción de la oferta",
+			"Condiciones de la oferta" => "Condiciones de la oferta",
+			"Hoteliers cant adquire offers" => "Eres un hotelero, por tanto no puedes adquirir ofertas",
+			"Hoteliers are not elegible for adquiring offers. This offers are for individuals only" => "Los hoteleros no pueden adquirir ni canjear ofertas, es solo para huéspedes",
+			"Coste de la oferta" => "Coste de la oferta",
+			"Canjear esta oferta" => "Canjear esta oferta",
+			"You can´t adquire this offer" => "No puedes adquirir esta oferta",
+			"Plazas ilimitadas" => "Cupo ilimitado",
+			"quedan" => "quedan",
+			"plazas" => "plazas",
+			"No quedan plazas para esta oferta" => "No quedan plazas para esta oferta",
+			"You have" => "Tienes",
+			"in this hotel" => "en este hotel",
+			"Esta oferta requiere estar en hotel alojado un mínimo de" => "Esta oferta requiere estar en hotel alojado un mínimo de",
+			"Price Range:" => "Rango de precios:",
+			"noches" => "noches",
+			"show all info" => "ver toda la info",
+			"Make a gift to a friend" => "Regalar a un amigo",
+			"Stop following this hotel" => "Dejar de seguir este hotel",
+			"Follow this hotel" => "Seguir este hotel",
+			"Remove from wishlist" => "Quitar de la lista de deseos",
+			"Add to wishlist" => "Añadir a lista de deseos",
+			"Share this offer" => "Compartir esta oferta",
+			"¿Any issue with this offer?" => "¿Algún incidente con esta oferta?",
+			"Cerrar" => "Cerrar",
+			"This is a referral offer" => "Esto es una oferta de referidos",
+			"not elegible to redeem with reward points" => "No se puede canjear con puntos"
+							);
+ ?>

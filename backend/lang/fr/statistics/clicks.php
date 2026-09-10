@@ -1,0 +1,36 @@
+<?php
+	$lang = [
+			"stats clicks" => "Estadísticas de clicks e impresiones",
+			"facebook connection" => "Conexiones con facebook",
+            "title facebook connection" => "Conexiones registradas con Facebook",
+            "explanation facebook connection" => "Número de usuarios de los que disponemos información proporcionada por Facebook.",
+            "connections" => "conexiones",
+            "medium range" => "Alcance medio",
+            "title medium range" => "Impacto de las publicaciones",
+            "explanation medium range" => "Cuando un usuario hace una publicación en Facebook, ésta tiene un impacto en este número de amigos de media.",
+            "friends" => "Amigos",
+            "post facebook" => "Publicaciones en Facebook",
+            "title post facebook" => "Número de publicaciones en Facebook",
+            "explanation post facebook" => "Cuantas publicaciones se han hecho en Facebook en este periodo de tiempo.",
+            "publishing" => "Publicaciones",
+            "average post" => "Media de publicaciones",
+            "explanation average post" => "Cuantas veces los usuarios deciden compartir su experiencia en el hotel sobre el total de conexiones registradas desde Facebook.",
+            "to total" => "del total",
+            "total impressions" => "Total de impresiones",
+            "title total impressions" => "Impresiones de las publicaciones",
+            "explanation total impressions" => "Cuantas veces se ha visto una publicación hecha por un usuario del hotel.",
+            "to firends" => "A los amigos",
+            "value impressions" => "Valor de las impresiones",
+            "explanation value impressions" => "Facebook otorga un valor monetario a las impresiones en caso de trabajar con Facebook Ads, este valor es el que se ha conseguido ahorrar en Facebook por Hotelinking.",
+            "total" => "En total",
+            "leads post" => "Leads generados por las publicaciones",
+            "title leads post" => "Visitas a la web del hotel",
+            "explanation leads post" => "Cuantas de esas impresiones han generado un Lead a la web del hotel.",
+            "leads value" => "Valor de los leads",
+            "explanation leads value" => "Al igual que las impresiones, los Leads son monetizados por Facebook en caso de usar Facebook Ads. Este valor es el ahorrado por Hotelinking.",
+            "title no booking engine integrated alert" => "Votre moteur de réservation n'est pas connecté avec Hotelinking",
+            "no booking engine integrated alert" => "Pour connecter votre moteur de réservation et commencer à voir des statistiques, veuillez-vous connecter à votre <a href='mailto:helpdesk@hotelinking.com'>key account</a>.",
+    ];
+
+    return $lang;
+ ?>

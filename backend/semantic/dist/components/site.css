@@ -1,0 +1,896 @@
+/*!
+ * # Semantic UI 2.4.2 - Site
+ * http://github.com/semantic-org/semantic-ui/
+ *
+ *
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+
+/*******************************
+             Page
+*******************************/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin');
+html,
+body {
+  height: 100%;
+}
+html {
+  font-size: 14px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  min-width: 320px;
+  background: #FFFFFF;
+  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.4285em;
+  color: rgba(0, 0, 0, 0.6);
+  font-smoothing: antialiased;
+}
+
+
+/*******************************
+             Headers
+*******************************/
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  line-height: 1.28571429em;
+  margin: calc(2rem -  0.14285714em ) 0em 1rem;
+  font-weight: bold;
+  padding: 0em;
+}
+h1 {
+  min-height: 1rem;
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.71428571rem;
+}
+h3 {
+  font-size: 1.28571429rem;
+}
+h4 {
+  font-size: 1.07142857rem;
+}
+h5 {
+  font-size: 1rem;
+}
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child {
+  margin-top: 0em;
+}
+h1:last-child,
+h2:last-child,
+h3:last-child,
+h4:last-child,
+h5:last-child {
+  margin-bottom: 0em;
+}
+
+
+/*******************************
+             Text
+*******************************/
+
+p {
+  margin: 0em 0em 1em;
+  line-height: 1.4285em;
+}
+p:first-child {
+  margin-top: 0em;
+}
+p:last-child {
+  margin-bottom: 0em;
+}
+
+/*-------------------
+        Links
+--------------------*/
+
+a {
+  color: #4183C4;
+  text-decoration: none;
+}
+a:hover {
+  color: #1e70bf;
+  text-decoration: none;
+}
+
+
+/*******************************
+         Scrollbars
+*******************************/
+
+
+
+/*******************************
+          Highlighting
+*******************************/
+
+
+/* Site */
+::-webkit-selection {
+  background-color: #CCE2FF;
+  color: rgba(0, 0, 0, 0.6);
+}
+::-moz-selection {
+  background-color: #CCE2FF;
+  color: rgba(0, 0, 0, 0.6);
+}
+::selection {
+  background-color: #CCE2FF;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/* Form */
+textarea::-webkit-selection,
+input::-webkit-selection {
+  background-color: rgba(100, 100, 100, 0.4);
+  color: rgba(0, 0, 0, 0.6);
+}
+textarea::-moz-selection,
+input::-moz-selection {
+  background-color: rgba(100, 100, 100, 0.4);
+  color: rgba(0, 0, 0, 0.6);
+}
+textarea::selection,
+input::selection {
+  background-color: rgba(100, 100, 100, 0.4);
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/* Force Simple Scrollbars */
+body ::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 10px;
+  height: 10px;
+}
+body ::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+}
+body ::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.25);
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+}
+body ::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(0, 0, 0, 0.15);
+}
+body ::-webkit-scrollbar-thumb:hover {
+  background: rgba(128, 135, 139, 0.8);
+}
+
+/* Inverted UI */
+body .ui.inverted::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+}
+body .ui.inverted::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.25);
+}
+body .ui.inverted::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(255, 255, 255, 0.15);
+}
+body .ui.inverted::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.35);
+}
+
+
+/*******************************
+        Global Overrides
+*******************************/
+
+
+
+/*******************************
+         Site Overrides
+*******************************/
+
+
+/*--------------
+   Layout
+---------------*/
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  height: 100%;
+  background-color: #fbfaff;
+}
+#header {
+  padding: 0;
+}
+#loader {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  z-index: 1000;
+}
+#loader img {
+  height: 100%;
+  position: relative !important;
+  top: unset !important;
+  left: unset !important;
+  margin: unset !important;
+}
+#main,
+#side_bar {
+  padding-top: 8.5rem;
+}
+.pusher,
+#main_grid,
+.main_row {
+  height: 100%;
+}
+#main_grid {
+  margin: 0;
+}
+#side {
+  padding: 0;
+}
+#side_bar {
+  height: 102%;
+  width: 100%;
+}
+#side_bar_menu {
+  position: fixed;
+  z-index: 10;
+}
+.main_row {
+  padding-bottom: 0 !important;
+}
+.primary-color {
+  color: #715aff;
+}
+.primary-color.bg {
+  background-color: #715aff !important;
+  color: white !important;
+}
+.hotelinking_message {
+  padding: 0 1rem 2rem;
+}
+.top_fixed_message {
+  border-radius: 0 !important;
+  position: fixed;
+  margin: -1px 0 0 !important;
+  z-index: 1000;
+  width: 100%;
+}
+.dnone {
+  display: none;
+}
+
+/*--------------
+   Responsive
+---------------*/
+
+
+/* headers */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  h1 {
+    font-size: 1rem;
+  }
+  h1.welcome {
+    font-size: 28px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+  h1.welcome {
+    font-size: 28px;
+  }
+}
+
+/*--------------
+   Sidebar IOS fix
+---------------*/
+
+html.ios {
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+html.ios,
+html.ios body {
+  height: initial !important;
+}
+
+/*--------------
+   Isotope
+---------------*/
+
+
+/* fluid 3 columns */
+.grid-sizer,
+.grid-item {
+  width: 25%;
+  padding: 0 1rem 2rem;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .grid-sizer,
+  .grid-item {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 1439px) {
+  .grid-sizer,
+  .grid-item {
+    width: 50%;
+  }
+}
+.grid-item-big {
+  width: 50%;
+}
+@media only screen and (min-width: 320px) and (max-width: 1439px) {
+  .grid-item-big {
+    width: 100%;
+  }
+}
+.grid-item-huge {
+  width: 100%;
+}
+.grid-item .statistics_card {
+  height: 25rem;
+}
+.grid-item .empty_statistic_img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  margin-top: -100px;
+  
+/* Half the height */
+  margin-left: -100px;
+  
+/* Half the width */
+}
+
+/*--------------
+   Statistics
+---------------*/
+
+.number_statistic {
+  margin-top: 6.6rem !important;
+}
+.statistics_card {
+  margin: 0 !important;
+}
+#dashboard_menu {
+  margin-top: -1rem;
+}
+#dashboard_menu_form {
+  padding: 1rem;
+}
+#funnel {
+  width: 60%;
+}
+@media only screen and (max-width: 480px) {
+  #funnel {
+    width: 100%;
+  }
+}
+.funnel-legend {
+  text-align: left !important;
+}
+.funnel-legend li {
+  padding: 5px 10px;
+}
+@media only screen and (max-width: 480px) {
+  .funnel-legend {
+    display: none;
+  }
+}
+.statistic_content .doughnout_extend_container {
+  padding: 1rem 20%;
+}
+.doughnut_statistics_card ul,
+.statistics_card ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+.doughnut_statistics_card ul li,
+.statistics_card ul li {
+  display: inline-block;
+  margin: 0 5px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.ui.card > .content.statistic_content.doughnout_extend_container {
+  padding: 1rem 20%;
+  position: relative;
+}
+.absolute_centered {
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+@media only screen and (max-width: 1024px) {
+  .absolute_centered {
+    top: 53%;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1439px) {
+  .absolute_centered {
+    top: 50%;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .absolute_centered {
+    top: 55%;
+  }
+}
+.absolute_centered .value.big_text {
+  color: #715aff;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.absolute_centered .label {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0.6rem 1.4rem;
+  line-height: 1.3;
+  font-size: 0.6rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/*--------------
+   dashboard_menu
+---------------*/
+
+#dashboard_menu {
+  padding: 1rem 0;
+}
+
+/*--------------
+   daterangepicker
+---------------*/
+
+.ui.calendar .ui.popup {
+  max-width: none;
+  padding: 0;
+  border: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.ui.calendar .calendar:focus {
+  outline: 0;
+}
+.ui.calendar .ui.popup .ui.grid {
+  display: block;
+  white-space: nowrap;
+}
+.ui.calendar .ui.popup .ui.grid > .column {
+  width: auto;
+}
+.ui.calendar .ui.table.minute,
+.ui.calendar .ui.table.month,
+.ui.calendar .ui.table.year {
+  min-width: 15em;
+}
+.ui.calendar .ui.table.day {
+  min-width: 18em;
+}
+.ui.calendar .ui.table.hour {
+  min-width: 20em;
+}
+.ui.calendar .ui.table tr td,
+.ui.calendar .ui.table tr th {
+  padding: 0.5em;
+  white-space: nowrap;
+}
+.ui.calendar .ui.table tr th {
+  border-left: none;
+}
+.ui.calendar .ui.table tr th .icon {
+  margin: 0;
+}
+.ui.calendar .ui.table tr:first-child th {
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+}
+.ui.calendar .ui.table.day tr:first-child th {
+  border: none;
+}
+.ui.calendar .ui.table.day tr:nth-child(2) th {
+  padding-top: 0.2em;
+  padding-bottom: 0.3em;
+}
+.ui.calendar .ui.table tr td {
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+}
+.ui.calendar .ui.table tr .link {
+  cursor: pointer;
+}
+.ui.calendar .ui.table tr .prev.link {
+  width: 14.28571429%;
+  position: absolute;
+  left: 0;
+}
+.ui.calendar .ui.table tr .next.link {
+  width: 14.28571429%;
+  position: absolute;
+  right: 0;
+}
+.ui.calendar .ui.table tr .disabled {
+  pointer-events: none;
+  color: rgba(40, 40, 40, 0.3);
+}
+.ui.calendar .ui.table tr td.today {
+  font-weight: 700;
+}
+.ui.calendar .ui.table tr td.range {
+  background: rgba(0, 0, 0, 0.05);
+  color: rgba(0, 0, 0, 0.95);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.ui.calendar .ui.table.inverted tr td.range {
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.ui.calendar .calendar.active .ui.table tbody tr td.focus,
+.ui.calendar .calendar.active .ui.table.inverted tbody tr td.focus,
+.ui.calendar .calendar:focus .ui.table tbody tr td.focus,
+.ui.calendar .calendar:focus .ui.table.inverted tbody tr td.focus {
+  -webkit-box-shadow: inset 0 0 0 1px #85b7d9;
+          box-shadow: inset 0 0 0 1px #85b7d9;
+}
+.huebee {
+  position: absolute;
+  z-index: 1;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-transition: opacity 0.15s, -webkit-transform 0.15s;
+  transition: opacity 0.15s, -webkit-transform 0.15s;
+  transition: opacity 0.15s, transform 0.15s;
+  transition: opacity 0.15s, transform 0.15s, -webkit-transform 0.15s;
+}
+.huebee.is-hidden {
+  opacity: 0;
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+}
+.huebee.is-static-open {
+  position: relative;
+  z-index: auto;
+}
+.huebee__container {
+  position: absolute;
+  left: 0;
+  top: 5px;
+  padding: 10px;
+  background: #eee;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.huebee.is-static-open .huebee__container {
+  position: relative;
+  display: inline-block;
+  left: auto;
+  top: auto;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.huebee__canvas {
+  display: block;
+  cursor: pointer;
+}
+.huebee__cursor {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  pointer-events: none;
+}
+.huebee__cursor.is-hidden {
+  opacity: 0;
+}
+.huebee__close-button {
+  display: block;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: -9px;
+  right: -9px;
+  border-radius: 12px;
+  background: #222;
+}
+.huebee__close-button__x {
+  stroke: #fff;
+  stroke-width: 3;
+  stroke-linecap: round;
+}
+.huebee__close-button:hover {
+  background: #fff;
+  cursor: pointer;
+}
+.huebee__close-button:hover .huebee__close-button__x {
+  stroke: #222;
+}
+
+/* Uitilities to hide elements in responsive environments */
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  [class*="mobile hidden"],
+  [class*="tablet only"]:not(.mobile),
+  [class*="computer only"]:not(.mobile),
+  [class*="large monitor only"]:not(.mobile),
+  [class*="widescreen monitor only"]:not(.mobile),
+  [class*="or lower hidden"] {
+    display: none !important;
+  }
+}
+
+/* Tablet / iPad Portrait */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  [class*="mobile only"]:not(.tablet),
+  [class*="tablet hidden"],
+  [class*="computer only"]:not(.tablet),
+  [class*="large monitor only"]:not(.tablet),
+  [class*="widescreen monitor only"]:not(.tablet),
+  [class*="or lower hidden"]:not(.mobile) {
+    display: none !important;
+  }
+}
+
+/* Computer / Desktop / iPad Landscape */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  [class*="mobile only"]:not(.computer),
+  [class*="tablet only"]:not(.computer),
+  [class*="computer hidden"],
+  [class*="large monitor only"]:not(.computer),
+  [class*="widescreen monitor only"]:not(.computer),
+  [class*="or lower hidden"]:not(.tablet):not(.mobile) {
+    display: none !important;
+  }
+}
+
+/* Large Monitor */
+@media only screen and (min-width: 1200px) and (max-width: 1919px) {
+  [class*="mobile only"]:not([class*="large monitor"]),
+  [class*="tablet only"]:not([class*="large monitor"]),
+  [class*="computer only"]:not([class*="large monitor"]),
+  [class*="large monitor hidden"],
+  [class*="widescreen monitor only"]:not([class*="large monitor"]),
+  [class*="or lower hidden"]:not(.computer):not(.tablet):not(.mobile) {
+    display: none !important;
+  }
+}
+
+/* Widescreen Monitor */
+@media only screen and (min-width: 1920px) {
+  [class*="mobile only"]:not([class*="widescreen monitor"]),
+  [class*="tablet only"]:not([class*="widescreen monitor"]),
+  [class*="computer only"]:not([class*="widescreen monitor"]),
+  [class*="large monitor only"]:not([class*="widescreen monitor"]),
+  [class*="widescreen monitor hidden"],
+  [class*="widescreen monitor or lower hidden"] {
+    display: none !important;
+  }
+}
+
+/* login page */
+.login-page {
+  height: 100%;
+  margin-top: 0 !important;
+  background-color: #ffffff;
+  background-size: 250px;
+}
+.login-right-background {
+  height: 100%;
+  background-position: top left;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+@media screen and (min-width: 768px) {
+  .login-right-background {
+    background-image: url("/public/images/hl_login_bg_2022_1024.png");
+  }
+}
+@media screen and (min-width: 1024px) {
+  .login-right-background {
+    background-image: url("/public/images/hl_login_bg_2022_1080.png");
+  }
+}
+@media screen and (min-width: 1080px) {
+  .login-right-background {
+    background-image: url("/public/images/hl_login_bg_2022_1440.png");
+  }
+}
+@media (min-aspect-ratio: 3/2) {
+  .login-right-background {
+    background-position: right;
+  }
+}
+.login-right-background .login-form-holder {
+  width: 50%;
+  height: 100%;
+  display: grid;
+}
+.login-right-background #animated_logo {
+  margin-left: -10px;
+}
+.login-right-background .login-form {
+  margin-top: -80px;
+  max-width: 400px;
+  padding: 3rem 3rem 0;
+  -ms-flex-item-align: center;
+      align-self: center;
+  justify-self: center;
+}
+.login-right-background .login-form h3 {
+  margin: 0.4rem 0;
+}
+.login-right-background .login-form h1 {
+  margin: 0 0.4rem 0 0;
+}
+.inputBgOpaque:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100px white inset;
+}
+@media screen and (max-width: 824px) {
+  .login-right-background .login-form-holder {
+    width: 100%;
+  }
+  .login-right-background {
+    background-image: none;
+  }
+}
+/* Logout Page*/
+.logout-page {
+  position: absolute;
+  width: 100%;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  text-align: center;
+}
+.logout-background {
+  background-color: white;
+  height: 100%;
+}
+.image-logout {
+  width: 50%;
+}
+@media screen and (min-width: 768px) {
+  .image-logout {
+    width: 400px;
+  }
+}
+.statistic-row {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.statistic-row-cell {
+  vertical-align: top;
+  display: inline-block;
+  width: 19%;
+  padding: 1rem 0;
+  font-size: 1em;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: left;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+.statistic-row-cell.main-cell {
+  width: 60%;
+}
+.limited-text {
+  white-space: nowrap;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+}
+.statistic-row-cell.center {
+  display: inline-block;
+  text-align: center;
+}
+.statistic-row-cell .value {
+  position: relative;
+  font-size: 2.8rem;
+  display: inline-block;
+  text-align: center;
+  color: #715aff;
+  font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  width: 5rem;
+}
+span.tooltip {
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+}
+.value span.tooltip {
+  left: calc((100% - 7rem) / 2);
+  width: 7rem;
+  bottom: -2rem;
+}
+@media screen and (max-width: 680px) {
+  .statistic-row-cell.main-cell {
+    width: 100%;
+  }
+  .statistic-row-cell {
+    width: 25%;
+  }
+  .statistic-row {
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .statistic-row-cell {
+    width: 100%;
+  }
+}
+.card {
+  width: 100% !important;
+}
+.ui.toggle.checkbox {
+  vertical-align: text-bottom;
+  padding-left: 3em;
+}
+.inline {
+  display: inline;
+}
+/*widget error message*/
+#alert_image {
+  height: 200px;
+  padding-top: 30px;
+}
+.widget-header {
+  text-transform: uppercase;
+}
+.widget-sub_header {
+  margin-top: 14px !important;
+}

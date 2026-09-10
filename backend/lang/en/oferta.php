@@ -1,0 +1,33 @@
+<?php
+	$OfertaLang = array(
+			"oferta valida desde el" => "<strong>valid from</strong>",
+			"hasta el" => "<strong>until</strong>",
+			"Descripción de la oferta" => "Description",
+			"Condiciones de la oferta" => "Special conditions (if any)",
+			"Hoteliers cant adquire offers" => "You are logged in as Hotelier",
+			"Hoteliers are not elegible for adquiring offers. This offers are for individuals only" => "I guess you are just checking around. In case you really would like to redeem this reward offer, log out and log in again as a guest",
+			"Coste de la oferta" => "Reward points needed",
+			"Canjear esta oferta" => "Redeem now",
+			"You can´t adquire this offer" => "Oops, you can´t redeem it now",
+			"Plazas ilimitadas" => "Unlimited seats",
+			"quedan" => "There are",
+			"plazas" => "seats left",
+			"No quedan plazas para esta oferta" => "Unfortunately there are no more seats left",
+			"You have" => "You have",
+			"in this hotel" => "to spend",
+			"Esta oferta requiere estar en hotel alojado un mínimo de" => "This reward offer requires you to stay a minimum of",
+			"Price Range:" => "Price Range:",
+			"noches" => "Night",
+			"show all info" => "show all info",
+			"Make a gift to a friend" => "Send as a gift to a friend",
+			"Stop following this hotel" => "Unfollow this hotel",
+			"Follow this hotel" => "Follow this hotel",
+			"Remove from wishlist" => "Remove from wish list",
+			"Add to wishlist" => "Add to wish list",
+			"Share this offer" => "Share on social media",
+			"¿Any issue with this offer?" => "¿Any issue with this offer?",
+			"Cerrar" => "Close",
+			"This is a referral offer" => "This is a referral offer",
+			"not elegible to redeem with reward points" => "not eligible to redeem with reward points"
+							);
+ ?>

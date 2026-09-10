@@ -1,0 +1,31 @@
+.referrers .overlayer {
+  position: fixed;
+  z-index: 1010;
+}
+.referrers .ripple {
+  text-align: center;
+  width: 300px;
+  display: none;
+  position: fixed;
+  z-index: 1011;
+  color: white;
+  top: 40%;
+  left: 50%;
+  margin-top: -40px;
+  margin-left: -150px;
+  animation-delay: .8s;
+  animation-duration: .1s;
+}
+.referrers .vertical-align {
+  position: fixed;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 1025px) {
+  html {
+    width: 112%;
+  }
+}

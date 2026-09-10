@@ -1,0 +1,12 @@
+RewriteEngine On
+
+#SetEnv php_ver 5_3
+
+#RewriteCond %{HTTP_HOST} ^midominio.com [NC]
+#RewriteRule ^(.*)$ http://www.midominio.com/$1 [L,R=301]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+
+RewriteRule ^(.+)$ index.php [QSA,L]

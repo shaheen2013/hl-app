@@ -1,0 +1,63 @@
+.ob-overlayer{
+	position:fixed;
+	z-index:10000000;
+	width:100%;
+	height:100%;
+	background: rgba(0, 0, 0, 0.9);
+	.ob-modal-content, .progress{
+		.border-radius(5px);
+	}
+	.ob-modal-content, .ob-steps{
+		width:90%;
+	}
+	.ob-modal-content{
+		background-color: #FFF;
+		padding:0;
+		margin:6% auto 0;
+		height:100%;
+		overflow: hidden;
+	}
+	.steps-btns{
+		padding:0;
+		height:560px;
+		.border-radius(0);
+		.btn{
+			text-align: left !important;
+			.border-radius(0);
+		}
+		.btn-group-bg{
+			height:100%;
+			background-color: @grisClaro;
+		}
+	}
+	.ob-main-content{
+		padding:40px;
+	}
+	.btn-go-dashboard{
+		display:none;
+	}
+}
+
+.first-video-video, .second-video-video, .third-video-video, .hotel-profile-video, .hotel-booking-video, .hotel-landing-video, .basic-info-video{
+	display:none;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-420px;
+	margin-top:-240px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+	padding:20px;
+	background-color: #FFF;
+	z-index:50001;
+	button{
+		position:absolute;
+		top:-30px;
+		right:0;
+		color:#FFF;
+		background: none;
+		border:none;
+	}
+}
+.btn-onboarding-hidden-1,.btn-onboarding-hidden-3,.btn-onboarding-hidden-4{
+	display:none;
+}

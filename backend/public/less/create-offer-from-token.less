@@ -1,0 +1,64 @@
+.create-offer-from-token{
+	font-size: 16px;
+	color: white;
+	footer{
+		display:none
+	}
+	.animated{
+		animation-duration: .3s;
+	}
+	.h3-anim, .h3-anim-2{
+		   animation-delay: .1s;
+	}
+	.p-anim, .p-anim-2{
+		   animation-delay: .2s;
+	}
+	.btn-anim{
+		   animation-delay: .3s;
+	}
+	.small-anim{
+		   animation-delay: .4s;
+	}
+	.dashed-promocode{
+		border:dashed 2px @grisOscuro;
+		border-radius: 5px;
+		padding:10px;
+	}
+}
+.success-layer{
+	position:fixed;
+	width:100%;
+	height:15px;
+	bottom:0;
+	padding-top:15px;
+	background-color: #65B5ED;
+	-webkit-transition: all 0.1s ease-out; /* Safari */
+	-moz-transition: all 0.1s ease-out;
+	-ms-transition: all 0.1s ease-out;
+	-o-transition: all 0.1s ease-out;
+	transition: all 0.1s ease-out;
+	.waves{
+		position:relative;
+	}
+	.wave{
+		background: url('/public/img/seawave.png');
+		background-repeat: repeat-x;
+		height:14px;
+		bottom:14px;
+		width: 400%;	
+		background-size: 240px 15px;
+		position:absolute;
+	}
+	.sea-wave-green{
+		animation: slideshow 40s linear infinite reverse;
+	}
+	.sea-wave-light-green{
+		opacity: .5;
+		animation: slideshow 60s linear infinite;
+		background-position: 0 20%;
+	}
+	@keyframes slideshow {
+  		0%    { left: 0; }
+  		100%  { left: -200%; }
+	}
+}

@@ -1,0 +1,18 @@
+/*******************************
+         Site Overrides
+*******************************/
+.branded_mobile{
+  overflow-x: hidden;
+  background : @primaryColor !important;
+  .item{
+    color: white !important;
+    border: none;
+    padding:1rem 2rem !important;
+    &:before{
+      background: none !important;
+    }
+  }
+  .active.item{
+    background: white;
+  }
+}

@@ -1,0 +1,33 @@
+<?php
+	$OfertaLang = array(
+			"oferta valida desde el" => "<strong>Gültig von</strong>",
+			"hasta el" => "<strong>bis</strong>",
+			"Descripción de la oferta" => "Beschreibung",
+			"Condiciones de la oferta" => "Besondere Bedingungen (falls vorhanden)",
+			"Hoteliers cant adquire offers" => "Du bist als Hotelier angemeldet",
+			"Hoteliers are not elegible for adquiring offers. This offers are for individuals only" => "Ich denke, Du schaust Dich nur etwas um. Falls Du dieses Angebot wirklich einlösen möchten, melde Dich ab und als Gast wieder an",
+			"Coste de la oferta" => "Bonuspunkte benötigt",
+			"Canjear esta oferta" => "Jetzt einlösen",
+			"You can´t adquire this offer" => "Hoppla, Du kannst es jetzt nicht einlösen",
+			"Plazas ilimitadas" => "Unbegrenzt Plätze",
+			"quedan" => "Dort sind",
+			"plazas" => "Plätze übrig",
+			"No quedan plazas para esta oferta" => "Leider gibt es keine freien Plätze mehr",
+			"You have" => "Du hast",
+			"in this hotel" => "zum Ausgeben",
+			"Esta oferta requiere estar en hotel alojado un mínimo de" => "Dieses Belohnungsangebot erfordert, dass Du mindestens so lange bleibst",
+			"Price Range:" => "Preisbereich:",
+			"noches" => "Nacht",
+			"show all info" => "Zeige alle Infos",
+			"Make a gift to a friend" => "Sende als Geschenk für einen Freund",
+			"Stop following this hotel" => "Diesem Hotel nicht mehr folgen",
+			"Follow this hotel" => "Folge diesem Hotel",
+			"Remove from wishlist" => "Von Wunschliste entfernen",
+			"Add to wishlist" => "Zur Wunschliste hinzufügen",
+			"Share this offer" => "Bei Social-Media teilen",
+			"¿Any issue with this offer?" => "Ein Problem mit diesem Angebot?",
+			"Cerrar" => "Schließen",
+			"This is a referral offer" => "Dies ist ein Einladungsangebot",
+			"not elegible to redeem with reward points" => "nicht berechtigt, mit Bonuspunkten einzulösen"
+							);
+ ?>

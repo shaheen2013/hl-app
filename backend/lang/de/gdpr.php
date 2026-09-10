@@ -1,0 +1,55 @@
+<?php
+$gdprTreatments = [
+    'informal' => [
+        "intro_title"                      => "Ihre Privatsphäre ist uns wichtig",
+        "intro_question"                   => "Übernachten Sie bei uns?",
+        "intro_answer_client"              => "Ja",
+        "intro_answer_not_client"          => "Nein",
+        "intro_accept_restrictive"         => "Fortfahren",
+        "intro_accept_conditions"          => "Bestätigen und fortfahren",
+        "checkbox_notifications"           => "Ich akzeptiere die Weitergabe meiner persönlichen Daten an das $1 für den Versand kommerzieller Mitteilungen hinsichtlich seiner Dienstleistungen",
+        "commercial_profile"               => "Ich bin damit einverstanden, dass meine Daten in ein Geschäftsprofil aufgenommen werden, um personalisierte Angebote von $1 zu erhalten",
+        "go_back"                          => "Zurück",
+        "confirm"                          => "Bestätigung",
+        'PMS validator require msg'        => "Um zu bestätigen, dass Sie ein Gast dieses Hotels sind, geben Sie bitte die folgenden Daten ein:",
+        'PMS validator require name'       => 'Geben Sie Ihren vollständigen Namen ein:',
+        'PMS validator require surname'    => 'Geben Sie Ihren ersten Nachnamen ein:',
+        'PMS validator require room'       => 'Geben Sie Ihre Zimmernummer ein:',
+        'PMS validator require first name' => 'Geben Sie Ihren Vornamen ein:',
+        'PMS validator require document id'=> 'Geben Sie bitte Ihre Ausweisnummer ein:',
+        'PMS validator title list users'   => 'Wählen Sie Ihr Profil aus: ',
+        'OR'                               => 'ODER',
+        'PMS validator access code'        => "Geben Sie das unten angegebene Passwort ein:",
+        'PMS validator radius ticket'      => 'Bitte geben Sie Ihren ticket ein:',
+        'PMS validator radiusTicketMsg'    => "Sollten Sie nicht über einen ticket verfügen, wenden Sie sich bitte an unsere Angestellten.",
+        "accommodated tab"                 => "Ich bin untergebracht",
+        "code tab"                         => "Ich habe einen Code"
+    ],
+    'formal' => [
+        "intro_title"                      => "Ihre Privatsphäre ist uns wichtig",
+        "intro_question"                   => "Übernachten Sie bei uns?",
+        "intro_answer_client"              => "Ja",
+        "intro_answer_not_client"          => "Nein",
+        "intro_accept_restrictive"         => "Fortfahren",
+        "intro_accept_conditions"          => "Bestätigen und fortfahren",
+        "checkbox_notifications"           => "Ich akzeptiere die Weitergabe meiner persönlichen Daten an das $1 für den Versand kommerzieller Mitteilungen hinsichtlich seiner Dienstleistungen",
+        "commercial_profile"               => "Ich akzeptiere, dass meine Daten in ein kommerzielles Profil aufgenommen werden, um personalisierte Angebote von $1 zu erhalten",
+        "go_back"                          => "Zurück",
+        "confirm"                          => "Bestätigung",
+        'PMS validator require msg'        => "Um zu bestätigen, dass Sie ein Gast dieses Hotels sind, geben Sie bitte die folgenden Daten ein:",
+        'PMS validator require name'       => 'Geben Sie Ihren vollständigen Namen ein:',
+        'PMS validator require surname'    => 'Geben Sie den ersten Nachnamen ein:',
+        'PMS validator require room'       => 'Geben Sie Ihre Zimmernummer ein:',
+        'PMS validator require first name' => 'Geben Sie Ihren Vornamen ein:',
+        'PMS validator require document id'=> 'Geben Sie bitte Ihre Ausweisnummer ein:',
+        'PMS validator title list users'   => 'Wählen Sie Ihr Profil aus: ',
+        'OR'                               => 'ODER',
+        'PMS validator access code'        => "Geben Sie das unten angegebene Passwort ein:",
+        'PMS validator radius ticket'      => 'Bitte geben Sie Ihren Ticket ein:',
+        'PMS validator radiusTicketMsg'    => "Sollten Sie nicht über einen Ticket verfügen, wenden Sie sich bitte an unsere Angestellten.",
+        "accommodated tab"                 => "Ich bin untergebracht",
+        "code tab"                         => "Ich habe einen Code"
+    ]
+];
+
+$gdprLang = $gdprTreatments[$_SESSION['hotel']['treatment']];

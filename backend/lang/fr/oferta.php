@@ -1,0 +1,33 @@
+<?php
+	$OfertaLang = array(
+			"oferta valida desde el" => "<strong>Valable à partir du</strong>",
+			"hasta el" => "<strong>Jusqu’au</strong>",
+			"Descripción de la oferta" => "Description",
+			"Condiciones de la oferta" => "Conditions particulières (s’il y en a)",
+			"Hoteliers cant adquire offers" => "Vous êtes connecté comme Hôtelier",
+			"Hoteliers are not elegible for adquiring offers. This offers are for individuals only" => "Je suppose que vous êtes en train de vous informer. Dans le cas où vous voulez vraiment échanger cette offre de récompense, déconnectez-vous et identifiez-vous comme visiteur",
+			"Coste de la oferta" => "Points de récompense nécessaires",
+			"Canjear esta oferta" => "Échangez maintenant",
+			"You can´t adquire this offer" => "Oups, vous ne pouvez pas échanger maintenant",
+			"Plazas ilimitadas" => "Sièges illimités",
+			"quedan" => "Il y a",
+			"plazas" => "Sièges libres",
+			"No quedan plazas para esta oferta" => "Malheureusement, il n'y a plus de places restantes",
+			"You have" => "Vous devez",
+			"in this hotel" => "À dépenser",
+			"Esta oferta requiere estar en hotel alojado un mínimo de" => "Cette offre de récompense vous oblige à rester un minimum de",
+			"Price Range:" => "Gamme de prix:",
+			"noches" => "Nuit",
+			"show all info" => "afficher toutes les infos",
+			"Make a gift to a friend" => "Envoyer comme un cadeau à un ami",
+			"Stop following this hotel" => "Ne pas suivre cet hôtel",
+			"Follow this hotel" => "Suivre cet hôtel",
+			"Remove from wishlist" => "Retirer de la liste de souhaits",
+			"Add to wishlist" => "Ajouter à la liste de souhaits",
+			"Share this offer" => "Partagez sur les médias sociaux",
+			"¿Any issue with this offer?" => "¿Avez-vous un problème avec cette offre?",
+			"Cerrar" => "Fermer",
+			"This is a referral offer" => "Ceci est une offre de parrainage",
+			"not elegible to redeem with reward points" => "vous n'avez pas le droit d’échanger avec des points de fidélité"
+							);
+ ?>

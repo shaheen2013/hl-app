@@ -1,0 +1,7 @@
+<?php
+	$RetencionAdquisicionModalLang = array(
+			"Adquisicion y retencion" => "Attracting loyal guests or acquiring new ones?",
+			"Explicación de las ofertas de retención y adquisición" => "You can target two different types of guests: existing and new ones.<br><br> If you create <strong>campaigns for existing guests</strong> (those visible on the guest database), the red reward points will apply. Red reward points are earned by your guests every time they check-out from your hotel. Every USD spent is converted in red reward points. these reward points can only be spent by your guests at your hotel.<br> When you create a rewards campaign for your existing guests, you decide the cost in red reward points for each campaign.<br> If you create rewards <strong>campaigns to acquire new guests</strong>, the blue reward points will apply. New guests come from Hotelinking's database, and none of those potential guests has ever stayed at your hotel before. The cost in blue reward points is calculated based on an algorithm. The better the campaign is, and the better the hotel is, more blue reward points will have to be spent by potential guests to get access to reward campaigns Blue reward points can only be used by new guests that are not registered on your Hotelinking's guest database.",
+			"Close" => "Close"
+								);
+ ?>

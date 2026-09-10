@@ -1,0 +1,15 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+
+/*-------------------
+         View
+--------------------*/
+
+/* Shadow */
+@shadowDistance: 1px;
+@shadowBoxShadow: 0px @shadowDistance 3px 0px @lightGrey;
+@borderShadow: 0px 0px 0px @borderWidth @lightGrey;
+
+/* Card */
+@display: block;
