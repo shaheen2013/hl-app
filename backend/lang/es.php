@@ -17,6 +17,7 @@ $urlTree = array(
 	'checkout' => 'checkout' ,
 	'cupon' => 'voucher' ,
 	'create-account' => 'create-account',
+	'demo-hub' => 'demo-hub',
 	'digital-loyalty-program' => 'digital-loyalty-program' ,
 	'digital-loyalty-program-thanks' => 'digital-loyalty-program-thanks',
 	'edit-staff' => 'edit-staff' ,

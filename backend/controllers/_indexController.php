@@ -41,6 +41,8 @@ if (empty($url['dir1'])) {
         //NEW APP
         include APP .'/app.php';
         exit();
+    } elseif ($url['dir1'] == 'demo-hub') {
+        $contenido = 'demo-hub';
     } elseif (!in_array($url['dir1'], $urlTree)) {
         $contenido = '404';
     } else {

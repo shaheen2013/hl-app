@@ -4,7 +4,7 @@ services:
   php:
     container_name: hlapp
     build:
-      context: .
+      context: ./backend
       dockerfile: Dockerfile
       args:
         APP_ENV: local
@@ -13,7 +13,7 @@ services:
       - "9006:443"
       - "9006:443/udp"
     volumes:
-      - ./:/app
+      - ./backend:/app
     command: ["frankenphp", "run", "--config", "/etc/frankenphp/Caddyfile"]
     networks:
       - hotelinking
@@ -29,7 +29,6 @@ services:
       - REDIS_HOST=redis
       - HR_SSO_VERIFY_URL=https://hr.mediusware.xyz/api/demo/validate/
       - MOCK_SSO=true
-    tty: true
     restart: unless-stopped
 
 networks:

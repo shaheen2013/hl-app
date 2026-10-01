@@ -39,11 +39,12 @@ RUN apt-get update && \
     update-ca-certificates &&\
     install-php-extensions \
 	pdo_mysql \
+	mysqli \
 	gd \
 	intl \
 	zip \
 	opcache \
-	redis
+	redis-6.1.0
 
 COPY --from=composer:latest /usr/bin/composer /usr/local/bin/composer
 

@@ -3,11 +3,21 @@
 <?php if ($url['dir1'] == 'private') { ?>
 
     <?php require(VIEW_COMMONS . 'head.php'); ?>
+    <?php 
+    if (!empty($_SESSION['h_logueado']) || !empty($_SESSION['c_logueado']) || !empty($_SESSION['staff_logueado']) || !empty($_SESSION['u_logueado']) || !empty($_SESSION['demo_user'])) {
+        include_once TEMPLATES . 'sso-topbar.php';
+    }
+    ?>
     <?php include(PAGES_PRIVATE . $contenido . '.php'); ?>
     <?php require(VIEW_COMMONS . 'footer.php'); ?>
 
 <?php } else { ?>
     <?php require(VIEW_COMMONS . 'head.php'); ?>
+    <?php 
+    if (!empty($_SESSION['h_logueado']) || !empty($_SESSION['c_logueado']) || !empty($_SESSION['staff_logueado']) || !empty($_SESSION['u_logueado']) || !empty($_SESSION['demo_user'])) {
+        include_once TEMPLATES . 'sso-topbar.php';
+    }
+    ?>
     <div class="hlwrapper"><!--START HLWRAPPER-->
         <noscript>
             <div class="alert alert-danger text-center" style="margin:0;" role="alert">
