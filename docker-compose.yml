@@ -9,9 +9,7 @@ services:
       args:
         APP_ENV: local
     ports:
-      - "9005:80"
-      - "9006:443"
-      - "9006:443/udp"
+      - "127.0.0.1:${APP_PORT:-9005}:80"
     volumes:
       - ./backend:/app
     command: ["frankenphp", "run", "--config", "/etc/frankenphp/Caddyfile"]
@@ -20,15 +18,18 @@ services:
     extra_hosts:
       - "host.docker.internal:host-gateway"
     environment:
-      - APP_ENV=dev
-      - APP_URL=http://localhost:9005/
-      - DB_HOST=hlmysql8
-      - DB_DATABASE=hotelinking_app_local
-      - DB_USERNAME=root
-      - DB_PASSWORD=secret
-      - REDIS_HOST=redis
-      - HR_SSO_VERIFY_URL=https://hr.mediusware.xyz/api/demo/validate/
-      - MOCK_SSO=true
+      - APP_ENV=${APP_ENV}
+      - APP_URL=${APP_URL}
+      - DB_HOST=${DB_HOST}
+      - DB_DATABASE=${DB_DATABASE}
+      - DB_USERNAME=${DB_USERNAME}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - REDIS_HOST=${REDIS_HOST}
+      - HR_SSO_VERIFY_URL=${HR_SSO_VERIFY_URL}
+      - MOCK_SSO=${MOCK_SSO}
+      - APP_SECURE_URL=${APP_SECURE_URL}
+      - API_URL=${API_URL}
+      - HR_SSO_DOMAIN=${HR_SSO_DOMAIN}
     restart: unless-stopped
 
 networks:

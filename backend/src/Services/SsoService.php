@@ -75,40 +75,43 @@ class SsoService
                 'verify'  => false,
             ]);
 
-            $response = $client->post($this->verifyUrl, [
-                'headers' => [
-                    'Authorization' => 'Bearer ' . $token,
-                    'Accept'        => 'application/json',
-                    'Content-Type'  => 'application/json',
-                ],
-                'json' => [
-                    'token'        => $token,
-                    'access_token' => $token,
-                ]
-            ]);
+            $domains = array_filter(array_map('trim', explode(',', (string) getenv('HR_SSO_DOMAIN'))));
+            if (empty($domains)) {
+                $domains = [$_SERVER['HTTP_HOST'] ?? parse_url(BASE_PATH, PHP_URL_HOST)];
+            }
 
-            $statusCode = $response->getStatusCode();
-            $body = (string) $response->getBody();
-            $data = json_decode($body, true);
+            $data = [];
+            $statusCode = 0;
+            foreach ($domains as $domain) {
+                // HR expects the demo code and the domain the code was issued for
+                $response = $client->post($this->verifyUrl, [
+                    'headers'     => ['Accept' => 'application/json'],
+                    'json'        => ['code' => $token, 'domain' => $domain],
+                    'http_errors' => false,
+                ]);
 
-            if ($statusCode >= 200 && $statusCode < 300 && !empty($data['success'])) {
-                return [
-                    'success' => true,
-                    'status'  => 'success',
-                    'message' => $data['message'] ?? 'Token verified successfully',
-                    'data'    => $data['data'] ?? [
-                        'user' => [
-                            'email' => 'admin@hotelinking.com',
-                            'role'  => 'admin'
+                $statusCode = $response->getStatusCode();
+                $data = json_decode((string) $response->getBody(), true) ?: [];
+
+                if ($statusCode >= 200 && $statusCode < 300 && !empty($data['success'])) {
+                    return [
+                        'success' => true,
+                        'status'  => 'success',
+                        'message' => $data['message'] ?? 'Token verified successfully',
+                        'data'    => $data['data'] ?? [
+                            'user' => [
+                                'email' => 'admin@hotelinking.com',
+                                'role'  => 'admin'
+                            ]
                         ]
-                    ]
-                ];
+                    ];
+                }
             }
 
             return [
                 'success' => false,
                 'status'  => 'error',
-                'message' => $data['message'] ?? 'Invalid or expired token'
+                'message' => $data['error']['message'] ?? $data['message'] ?? 'Invalid or expired token'
             ];
         } catch (Exception $e) {
             return [

@@ -20,7 +20,6 @@
         "maxbanton/cwh": "^2.0.4",
         "blat/slim-plates": "^0.1.1",
         "php-di/php-di": "^7.0"
-
     },
     "config": {
         "platform": {
@@ -37,5 +36,17 @@
     },
     "require-dev": {
         "phpunit/phpunit": "^12.1"
-    }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "local/mandrill",
+            "options": {
+                "symlink": false,
+                "versions": {
+                    "mandrill/mandrill": "1.0.55"
+                }
+            }
+        }
+    ]
 }

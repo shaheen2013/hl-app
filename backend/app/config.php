@@ -88,3 +88,63 @@ define('ZERO_BOUNCE_API_KEY', '');
 define('SURVEYS_URL', 'http://localhost:8080');
 define('S3_DATAMATCH_BUCKET', 'dev-datamatch');
 define('S3_DATAMATCH_BUCKET_ENDPOINT', 'https://s3-eu-west-1.amazonaws.com/dev-datamatch');
+
+include_once 'folders.php';
+include_once 'facebook.php';
+
+// Constants restored from the original config (missing after the SSO commit)
+define('AWS', [
+    'credentials' => [
+        'key' => getenv('AWS_ACCESS_KEY_ID') ?: '',
+        'secret' => getenv('AWS_SECRET_ACCESS_KEY') ?: '',
+    ],
+    'region' => 'eu-west-1',
+    'version' => 'latest',
+    'app_client_id' => '57kcmqkrajb1r4b2trgvckepvf',
+    'app_client_secret' => getenv('AWS_APP_CLIENT_SECRET') ?: '',
+    'user_pool_id' => 'eu-west-1_BCVdT9Bb0',
+    'username_field' => 'username',
+    'group' => 'Hotelinking',
+    'api_gateway' => getenv('API_URL') ?: 'https://hotelinking-api.mediusware.xyz/'
+]);
+
+define('AWS_SUITE', [
+    'credentials' => [
+        'key' => getenv('AWS_SUITE_ACCESS_KEY_ID') ?: '',
+        'secret' => getenv('AWS_SUITE_SECRET_ACCESS_KEY') ?: '',
+    ],
+    'region' => 'eu-west-1',
+    'version' => 'latest',
+    'app_client_id' => '1fj4hnj84ap5l24t5e9iaofn25',
+    'app_client_secret' => getenv('AWS_SUITE_APP_CLIENT_SECRET') ?: '',
+    'user_pool_id' => 'eu-west-1_6zlqVwqri',
+]);
+
+define('IMAGES_CLOUDFRONT_DISTRIBUTION_ID', 'E324O23VY1CC2H');
+
+define('REPORTS_ENDPOINT', 'reports/');
+define('WIDGET_ENDPOINT', 'widget/');
+define('EMAIL_ENDPOINT', 'emails/');
+define('HOTELINKING_ENDPOINT', 'hotelinking/');
+define('EMAILS_ENDPOINT', 'emails/');
+define('AUTOCHECKIN_ENDPOINT', 'autocheckin/');
+define('STATISTICS_ENDPOINT', 'stats/');
+define('NOC_ENDPOINT', 'noc/');
+define('PAYMENTS_ENDPOINT', 'payments/');
+define('DATAMATCH_COLUMNS', '["pms_id","pax_type","first_name","last_name","gender","check_in","check_out","birthday","nationality","res_room_number","res_room_type","hotel_id","brand_id","hotel_name","document_id","address","city","province","postal_code","telephone","birth_country","residence_country","res_board","res_adults","res_children","res_juniors","res_babies","res_seniors","res_id","res_nights","res_agency","res_company","res_intermediary","res_channel","res_contract","res_date","res_amount","res_extras","res_currency","res_comments"]');
+
+define('GOOGLE_API_KEY', getenv('GOOGLE_API_KEY') ?: '');
+define('GOOGLE_PORTAL_CLIENT_ID', '206628568605-o542irpdcu31h8h1eeqphln6afds3ifq.apps.googleusercontent.com');
+define('GOOGLE_PORTAL_CLIENT_SECRET', getenv('GOOGLE_PORTAL_CLIENT_SECRET') ?: '');
+define('GTM_ACCOUNT_ID', '');
+define('GOOGLE_OAUTH_REDIRECT_URL', BASE_PATH . 'private/private-edit-booking-engines/');
+define('WIFI_REDIRECT_URL', 'http://givemefreewifi.com');
+
+define('CLOUDWATCH_LOG_ENABLED', false);
+define('CLOUDWATCH_LOG_GROUP_NAME', 'staging-hotelinking-app');
+define('CLOUDWATCH_LOG_STREAM_NAME', 'staging-hotelinking-app');
+define('CLOUDWATCH_LOG_PORTAL_GROUP_NAME', 'staging-reports-portal-pro');
+define('CLOUDWATCH_LOG_PORTAL_STREAM_NAME', 'staging-reports-portal-pro');
+
+define('STREAM_SUB_DOMAIN', 'streams');
+define('SCHEMAS_TABLE', 'dev-eventSchemas');

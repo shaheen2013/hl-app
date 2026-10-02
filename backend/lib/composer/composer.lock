@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8dbb95d043ed7a286a5156e771c6bf1f",
+    "content-hash": "d78251b6cb380434ecbeb1a9572582b8",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -1838,16 +1838,10 @@
         {
             "name": "mandrill/mandrill",
             "version": "1.0.55",
-            "source": {
-                "type": "git",
-                "url": "https://bitbucket.org/mailchimp/mandrill-api-php.git",
-                "reference": "da3adc10042eafac2e53de141b358a52b8e53596"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://bitbucket.org/mailchimp/mandrill-api-php/get/da3adc10042eafac2e53de141b358a52b8e53596.zip",
-                "reference": "da3adc10042eafac2e53de141b358a52b8e53596",
-                "shasum": ""
+                "type": "path",
+                "url": "local/mandrill",
+                "reference": "4475fea0ac046dad019980b3d54e881a29c896e7"
             },
             "require": {
                 "php": ">=5.2.0"
@@ -1858,7 +1852,6 @@
                     "Mandrill": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "Apache-2.0"
             ],
@@ -1876,8 +1869,10 @@
                 "api",
                 "email"
             ],
-            "abandoned": "mailchimp/transactional",
-            "time": "2015-09-22T13:58:03+00:00"
+            "transport-options": {
+                "symlink": false,
+                "relative": true
+            }
         },
         {
             "name": "maxbanton/cwh",
@@ -5807,15 +5802,15 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "ext-mbstring": "*"
     },
-    "platform-dev": [],
+    "platform-dev": {},
     "platform-overrides": {
         "php": "8.4.6"
     },
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.9.0"
 }
